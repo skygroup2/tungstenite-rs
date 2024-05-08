@@ -1,0 +1,4052 @@
+[33mcommit ab0cc6a70d0fc2b99312721099a3043c8466b794[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: mynamebvh <mynamebvh@gmail.com>
+Date:   Wed May 8 16:01:45 2024 +0700
+
+    update dependencies headers
+
+[33mcommit d5fe00f1c43126a1284e95a3f610008f1d5ce169[m[33m ([m[1;32mmaster[m[33m)[m
+Author: mynamebvh <mynamebvh@gmail.com>
+Date:   Wed May 8 11:05:00 2024 +0700
+
+    Add permessage-deflate support
+
+[33mcommit 6e63b17b6376954a46dba2676a605ac4bf9ee1e0[m[33m ([m[1;33mtag: v0.20.0[m[33m)[m
+Author: Daniel Abramov <daniel.abramov@element.io>
+Date:   Sat Jul 22 15:18:14 2023 +0100
+
+    Update changelog
+
+[33mcommit f2ed7aa82612d70369ee92ffd787fd1ec2d1ac94[m
+Merge: 8d8f0da 40cd43c
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Jul 22 16:10:14 2023 +0200
+
+    Merge pull request #365 from snapview/dependabot/cargo/webpki-roots-0.24
+    
+    Update webpki-roots requirement from 0.23 to 0.24
+
+[33mcommit 8d8f0da204596d18038bf6ad623dd84642640b9f[m
+Merge: dac07ea 8f73cf0
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Jul 22 16:08:30 2023 +0200
+
+    Merge pull request #362 from alexheretic/config-asserts
+    
+    Add assert panics for `WebSocketConfig`
+
+[33mcommit dac07ea68bea72873057e5a8c64d5a5ffdf41a54[m
+Merge: 57d9e23 2345e28
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Jul 22 16:07:39 2023 +0200
+
+    Merge pull request #361 from alexheretic/docs++
+    
+    Clarify `WebSocketConfig` docs
+
+[33mcommit 40cd43c4f9541c2bc118a0e60dd159603cb77a18[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jul 7 08:51:20 2023 +0000
+
+    Update webpki-roots requirement from 0.23 to 0.24
+    
+    Updates the requirements on [webpki-roots](https://github.com/rustls/webpki-roots) to permit the latest version.
+    - [Commits](https://github.com/rustls/webpki-roots/compare/v/0.23.1...v/0.24.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: webpki-roots
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 8f73cf03ab56f9a36d7a89154359d8fbc565d841[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Sat Jun 17 23:50:18 2023 +0100
+
+    update changelog
+
+[33mcommit 9567cc73f3e16dbe17404b88d68ba9d22836f116[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Sat Jun 17 23:46:04 2023 +0100
+
+    Add panics docs
+
+[33mcommit 7869f11b4155d32bc9aa4872baf62373cb19f342[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Sat Jun 17 23:36:46 2023 +0100
+
+    Add assert panics for WebSocketConfig
+
+[33mcommit 2345e28158407a977961092253c64702a673c9be[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Sat Jun 17 23:24:52 2023 +0100
+
+    Clarify WebSocketConfig docs
+
+[33mcommit 57d9e23939085c342949e62df799d75ed7c27d2f[m
+Merge: d7b559d 9533c02
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Jun 17 18:37:43 2023 +0200
+
+    Merge pull request #360 from doylemark/master
+    
+    Return correct protocol error when missing http version
+
+[33mcommit 9533c02280e59acb28029bb0ea78d2aef2f1ceb5[m
+Author: Mark Doyle <markdoyle222@gmail.com>
+Date:   Mon Jun 12 13:19:13 2023 +0100
+
+    return correct protocol error when missing http version
+
+[33mcommit d7b559d724eb156590f9b739245499d6bdce41a3[m
+Merge: 8f23e17 8901dcc
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Jun 10 11:25:25 2023 +0200
+
+    Merge pull request #359 from mtbc/allow-IPv6-SocketAddr
+    
+    remove [] enclosing IPv6 host address
+
+[33mcommit 8901dcc53570a78ee1acfd81b351c2086e00bad5[m
+Author: Mark T. B. Carroll <mark.carroll@btp.works>
+Date:   Tue Jun 6 13:47:09 2023 +0100
+
+    remove [] enclosing IPv6 host address
+
+[33mcommit 8f23e1765e9a5145b8df9c063744eda1c5bdcf28[m
+Merge: 5a3115c f6a610f
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Fri Jun 2 22:21:34 2023 +0200
+
+    Merge pull request #358 from alexheretic/buffer-writes
+    
+    Buffer writes before writing to the underlying stream
+
+[33mcommit f6a610f92532842c3a97103073d3844eade422d8[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 19:01:27 2023 +0100
+
+    Add write_flush_behaviour test
+
+[33mcommit dea67d6cca6d4b4ca42aca0aa78fa6a530741e06[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 17:39:06 2023 +0100
+
+    Fix doc typo
+
+[33mcommit 41818166cf74495c4b747b466da64583a3b3f3dd[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 14:37:15 2023 +0100
+
+    refactor WebSocketContext new
+
+[33mcommit 0cada00fb55828f347735a084d040b08dbd5a7c1[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 14:34:24 2023 +0100
+
+    Refactor write_one_frame -> buffer_frame
+
+[33mcommit f33bb2cb971c1a0207530ffe1426b20229bf656e[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 12:01:06 2023 +0100
+
+    Ensure out_buffer written when !can_read
+
+[33mcommit 1b47964f18258b696f1593cd06b4284a1bc55fc0[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 11:17:59 2023 +0100
+
+    split write and write_out_buffer internals
+    
+    Fix internal method naming
+
+[33mcommit 2ef5b9a5e2a66ebbd7b573ad7b33a85aa7cbafb6[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 10:46:57 2023 +0100
+
+    Buffer writes before writing to the underlying stream
+    
+    Add write_buffer_size
+    Set default 128 KiB
+
+[33mcommit 2cf7cfef045cf64c27736cc746a174881676bdbb[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Tue May 30 18:26:25 2023 +0100
+
+    Rework write 100k bench to have a slow writes & even slower flushes
+
+[33mcommit 5a3115c09b875403ec6c7a1bef5802fb264d1228[m
+Merge: 79b39eb 06e55a4
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Sun May 28 18:40:35 2023 +0200
+
+    Merge pull request #357 from alexheretic/flush-writes-less
+    
+    Rework to remove implicit flushes
+
+[33mcommit 06e55a4ef25350d7d6a21e8421a2a183a1310b6e[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Sat May 27 13:27:55 2023 +0100
+
+    Refactor additional_send writing
+
+[33mcommit 84a54b76e64a282d51140690db479269d44bcc65[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Sat May 27 13:03:44 2023 +0100
+
+    Rename methods to `read`, `send`, `write` & `flush`
+    
+    Refine docs
+    Add `send` method
+    Add deprecated versions of write_message, write_pending,
+    read_message
+    Handle pong WriteBufferFull error
+    Add changelog
+
+[33mcommit 79b39eb1466deb2a7bec8294e0b923a39e1584f7[m
+Merge: 371f823 7242a22
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri May 26 21:36:49 2023 +0200
+
+    Merge pull request #356 from snapview/dependabot/cargo/criterion-0.5.0
+    
+    Update criterion requirement from 0.4.0 to 0.5.0
+
+[33mcommit 0203a1849bd02c10c900aa2458db1243780b4f2f[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Wed May 24 17:12:23 2023 +0100
+
+    Remove send_queue, use out_buffer instead
+
+[33mcommit 483d2297077e3ce5ae93c17315c7eda1cc078e4d[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Wed May 24 17:12:23 2023 +0100
+
+    Remove implicit write flushing
+
+[33mcommit d298089bf369d3cac5e9a043210d51f3100a39da[m
+Author: Alex Butler <alexheretic@gmail.com>
+Date:   Wed May 24 17:12:23 2023 +0100
+
+    Add write 100k micro-bench
+
+[33mcommit 7242a22b91aee9ac667ce62308ba74dd208ed0d6[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed May 24 08:57:02 2023 +0000
+
+    Update criterion requirement from 0.4.0 to 0.5.0
+    
+    Updates the requirements on [criterion](https://github.com/bheisler/criterion.rs) to permit the latest version.
+    - [Changelog](https://github.com/bheisler/criterion.rs/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/bheisler/criterion.rs/compare/0.4.0...0.5.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: criterion
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 371f8230444e209cc37ec481e94d621eddf5f0af[m
+Merge: e5efe53 ee3ffc9
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri May 19 00:22:07 2023 +0200
+
+    Merge pull request #354 from CBenoit/fix-error-on-bad-root-cert
+    
+    Gracefully handle invalid native root certificates
+
+[33mcommit ee3ffc9e9d58dc3663996c66f3d8435db77367db[m
+Author: Benoît CORTIER <bcortier@proton.me>
+Date:   Wed May 17 11:49:28 2023 -0400
+
+    Gracefully handle invalid native root certificates
+    
+    Before this patch, the `rustls::RootCertStore::add` method was used
+    to add all the root certificates found by `rustls_native_certs` crate.
+    This is a problem when an ancient or invalid certificate is present
+    in the native root store. `rustls` documentation says the following:
+    
+    > This is suitable for a small set of root certificates that
+    > are expected to parse successfully. For large collections of
+    > roots (for example from a system store) it is expected that
+    > some of them might not be valid according to the rules `rustls`
+    > implements. As long as a relatively limited number of certificates
+    > are affected, this should not be a cause for concern. Use
+    > `RootCertStore::add_parsable_certificates` in order to add as many
+    > valid roots as possible and to understand how many certificates have
+    > been diagnosed as malformed.
+    
+    With this patch, `RootCertStore::add_parsable_certificates` is used
+    instead for maximal compability with system store.
+    
+    > Parse the given DER-encoded certificates and add all that can be
+    > parsed in a best-effort fashion.
+    >
+    > This is because large collections of root certificates often include
+    > ancient or syntactically invalid certificates.
+
+[33mcommit e5efe537b87a6705467043fe44bb220ddf7c1ce8[m
+Merge: 314feea 8a436e7
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Apr 26 04:14:30 2023 +0200
+
+    Merge pull request #351 from nickelc/deps/webpki
+    
+    Remove unused `TlsError::Webpki` error variant
+
+[33mcommit 8a436e7550f8e631440e02ebb79e216b15b931cc[m
+Author: Constantin Nickel <constantin.nickel@gmail.com>
+Date:   Tue Apr 25 22:22:36 2023 +0200
+
+    Remove unused `TlsError::Webpki` error variant
+    
+    The error variant is no longer needed since `rustls` 0.21.
+
+[33mcommit 314feea3055a93e585882fb769854a912a7e6dae[m
+Merge: 79fa378 50d5a37
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Apr 14 10:25:07 2023 +0200
+
+    Merge pull request #348 from atouchet/trv
+    
+    Switch build status badge to GitHub Actions
+
+[33mcommit 50d5a37bdc155165fff1097d0cbe3bc67492336c[m
+Author: Alex Touchet <alextouchet@outlook.com>
+Date:   Thu Apr 13 22:25:37 2023 -0700
+
+    Switch build status badge to GitHub Actions
+
+[33mcommit 79fa37888f04284e497f993b8b8e4150e5e9c0ca[m
+Merge: 869a67c 746d938
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Apr 12 17:00:24 2023 +0200
+
+    Merge pull request #347 from snapview/github-actions
+    
+    Exchange Travis CI for GitHub Actions
+
+[33mcommit 746d938412736b27f801a108c6a09957fa1db231[m
+Author: Daniel Abramov <daniel.abramov@element.io>
+Date:   Wed Apr 12 16:46:55 2023 +0200
+
+    Use `cargo fmt` from nightly
+
+[33mcommit a4863d3f101890899c3390c6bd52b999d707e2f6[m
+Author: Daniel Abramov <daniel.abramov@element.io>
+Date:   Wed Apr 12 16:33:24 2023 +0200
+
+    Make code compile with any feature set
+
+[33mcommit 7e4a15446da369f4a4a140563eaadf3ccd290d8d[m
+Author: Daniel Abramov <daniel.abramov@element.io>
+Date:   Wed Apr 12 16:30:15 2023 +0200
+
+    Properly activate features for examples and tests
+
+[33mcommit 87e9f576afd33db9f8d69b0c899a11907aea4b17[m
+Author: Daniel Abramov <daniel.abramov@element.io>
+Date:   Wed Apr 12 16:09:09 2023 +0200
+
+    Make `cargo fmt` happy
+
+[33mcommit e758f7dc2aaaa6456ea8ce3586214df854812f08[m
+Author: Daniel Abramov <daniel.abramov@bsi-software.com>
+Date:   Wed Apr 12 12:58:52 2023 +0200
+
+    Exchange Travis CI for GitHub Actions
+
+[33mcommit 869a67ca0bf320c55ea48586fe38a158ddad2017[m[33m ([m[1;33mtag: v0.19.0[m[33m)[m
+Author: Daniel Abramov <daniel.abramov@bsi-software.com>
+Date:   Wed Apr 12 12:52:18 2023 +0200
+
+    Bump version
+
+[33mcommit a873befaae125f9e0c4fbfebd6ca54cf992928de[m
+Merge: 92d65e1 1f6c62d
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Apr 7 11:31:42 2023 +0200
+
+    Merge pull request #345 from mlemesle/fix/webpki-error-variant
+    
+    Fix not compiling features rustls-tls-native-roots and rustls-tls-webpki-roots
+
+[33mcommit 1f6c62d301fe412e2e3024434d058179d80294ed[m
+Author: Martin Lemesle <martin.lemesle@iomentum.com>
+Date:   Fri Apr 7 10:11:53 2023 +0200
+
+    Fix not compiling features rustls-tls-native-roots and rustls-tls-webpki-roots
+
+[33mcommit 92d65e11043f2a3bf18099ecc3cd7911e70bc456[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Apr 3 21:49:59 2023 +0200
+
+    Update webpki-roots requirement from 0.22 to 0.23 (#343)
+    
+    Updates the requirements on [webpki-roots](https://github.com/rustls/webpki-roots) to permit the latest version.
+    - [Release notes](https://github.com/rustls/webpki-roots/releases)
+    - [Commits](https://github.com/rustls/webpki-roots/commits)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: webpki-roots
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 67e25fdd68491687ca18f26d1335aadf65f0ce2c[m
+Merge: 42b8797 1422d47
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Mar 30 13:04:30 2023 +0200
+
+    Merge pull request #341 from snapview/dependabot/cargo/rustls-0.21.0
+    
+    Update rustls requirement from 0.20.0 to 0.21.0
+
+[33mcommit 1422d47ec0e500c15c82a5de93f9f7524d0eddb2[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Mar 30 08:57:37 2023 +0000
+
+    Update rustls requirement from 0.20.0 to 0.21.0
+    
+    Updates the requirements on [rustls](https://github.com/rustls/rustls) to permit the latest version.
+    - [Release notes](https://github.com/rustls/rustls/releases)
+    - [Changelog](https://github.com/rustls/rustls/blob/main/RELEASE_NOTES.md)
+    - [Commits](https://github.com/rustls/rustls/compare/v/0.20.0...v/0.21.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: rustls
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 42b8797e8b7f39efb7d9322dc8af3e9089db4f7d[m
+Author: Daniel Abramov <daniel.abramov@element.io>
+Date:   Thu Mar 23 00:15:53 2023 +0100
+
+    Revert "Add `permessage-deflate` support"
+    
+    This reverts commit edb237754084bfb18a301ac8a3a42612af64ae19.
+    
+    See https://github.com/snapview/tungstenite-rs/pull/328#issuecomment-1480349206
+
+[33mcommit edb237754084bfb18a301ac8a3a42612af64ae19[m
+Author: kazk <kazk.dev@gmail.com>
+Date:   Fri Mar 4 22:05:21 2022 -0800
+
+    Add `permessage-deflate` support
+
+[33mcommit e1033afd959bb7abfcbc181033b8326f8a40562b[m
+Merge: 657faf4 5125c59
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sun Feb 12 18:03:58 2023 +0100
+
+    Merge pull request #337 from A5rocks/fix-frame-display
+    
+    Display correct payload in Frame::fmt
+
+[33mcommit 5125c59dfa00280d81d6e2f605d6248562383ecc[m
+Author: EXPLOSION <git@helvetica.moe>
+Date:   Sat Feb 11 23:23:42 2023 +0000
+
+    Display correct payload in Frame::fmt
+
+[33mcommit 657faf427f44e6e64074fc9387914a82bd5af1f1[m
+Author: Jack Wills <32690432+mrjackwills@users.noreply.github.com>
+Date:   Tue Jan 31 21:59:15 2023 -0500
+
+    docs: message.rs typo
+    
+    Simple typo fix of is_close() method
+
+[33mcommit c6769e3daebc064f1e1e711f552c7970a42d8346[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Fri Jan 13 00:14:31 2023 +0200
+
+    Switch from base64 0.20 to data-encoding 2
+    
+    base64 0.21 deprecated the simple API and requires quite a bit more code
+    for the simple usage here, while data-encoding provides exactly the API
+    needed and is also actively maintained.
+
+[33mcommit c469214dd3012af6f1641fb7a6754dc186e10677[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Dec 13 13:43:22 2022 +0100
+
+    Update base64 requirement from 0.13.0 to 0.20.0 (#326)
+    
+    Updates the requirements on [base64](https://github.com/marshallpierce/rust-base64) to permit the latest version.
+    - [Release notes](https://github.com/marshallpierce/rust-base64/releases)
+    - [Changelog](https://github.com/marshallpierce/rust-base64/blob/master/RELEASE-NOTES.md)
+    - [Commits](https://github.com/marshallpierce/rust-base64/compare/v0.13.0...v0.20.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: base64
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 3fc7fb412c3e6fdc8bdf7861104b645c9d527202[m
+Author: ssrlive <30760636+ssrlive@users.noreply.github.com>
+Date:   Fri Dec 2 22:35:22 2022 +0800
+
+    Mark some functions as public (#315)
+    
+    Fixes #315.
+    
+    Co-authored-by: Daniel Abramov <inetcrack2@gmail.com>
+
+[33mcommit 72c6f6cdd07a24f900da3a1c41cecb75f4a0e7f1[m[33m ([m[1;33mtag: v0.18.0[m[33m)[m
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Nov 28 22:47:45 2022 +0100
+
+    Bump version (#322)
+
+[33mcommit 85f153c6fc7302ee0efa178b89ef584d9f28b50d[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Nov 25 10:31:47 2022 +0100
+
+    Update env_logger requirement from 0.9.0 to 0.10.0 (#320)
+    
+    Updates the requirements on [env_logger](https://github.com/rust-cli/env_logger) to permit the latest version.
+    - [Release notes](https://github.com/rust-cli/env_logger/releases)
+    - [Changelog](https://github.com/rust-cli/env_logger/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/rust-cli/env_logger/compare/v0.9.0...v0.10.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: env_logger
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 7174996e7739bdbec372f43474464b70fe914a8f[m
+Merge: c7e9e0c 984ad9d
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Nov 24 17:51:40 2022 +0100
+
+    Merge pull request #319 from howjmay/typo
+    
+    fix typos
+
+[33mcommit 984ad9d6c7917a2af8c9dc707b71a877c2740c85[m
+Author: Yang Hau <yuanyanghau@gmail.com>
+Date:   Tue Nov 22 20:23:59 2022 +0800
+
+    fix typos
+
+[33mcommit c7e9e0cbae3c616c78345a1729c12d812d24afc9[m
+Merge: 4382106 eb9d440
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Sat Nov 19 02:12:26 2022 +0100
+
+    Merge pull request #317 from atouchet/lic
+    
+    Use SPDX license format
+
+[33mcommit eb9d440a14c9e6f82dd2760cd8c6e756d0c9897c[m
+Author: Alex Touchet <alextouchet@outlook.com>
+Date:   Fri Nov 18 16:57:44 2022 -0800
+
+    Use SPDX license format
+
+[33mcommit 438210688fca8fb64ecf41000feb9573310ea93b[m
+Merge: b473e19 1c657d4
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Tue Nov 15 00:57:00 2022 +0100
+
+    Merge pull request #298 from riptide-org/ISSUE-199-READ-BODY-ON-FAILED-READ
+    
+    Error response on client type returns request body upon non receiving non 101 status code from server
+
+[33mcommit 1c657d4c6ac55fe6f8640557a9894afb57a1cd75[m
+Author: Josiah Bull <josiah.bull7@gmail.com>
+Date:   Wed Oct 19 12:28:44 2022 +1300
+
+    feat: switched response type from Vec<u8> to Option<Vec<u8>> to allow returning of differentiation of no body from empty body.
+
+[33mcommit 36ab77005952a1f6aecc0b1f41c7e0cbf0282172[m
+Author: Josiah Bull <josiah.bull7@gmail.com>
+Date:   Tue Aug 30 09:48:36 2022 +1200
+
+    feat: error type returns `Vec<u8>` instead of `Option<String>`
+
+[33mcommit 4a7beaa897f4468cabf4ba8e6f1ed4ebaf4bc6bb[m
+Author: Josiah Bull <josiah.bull7@gmail.com>
+Date:   Sat Aug 27 18:50:48 2022 +1200
+
+    feat: error responses return body upon non 101 status code
+    
+    modified `client::Response` type to contain `String` instead of `()` to achieve this.
+
+[33mcommit b473e19f7eef012611feadf81df7ec49c52c4a1a[m
+Merge: 96f9cb9 0b573ef
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Sep 12 19:54:39 2022 +0200
+
+    Merge pull request #302 from snapview/dependabot/cargo/criterion-0.4.0
+    
+    Update criterion requirement from 0.3.4 to 0.4.0
+
+[33mcommit 0b573efb6bbccdb1bbec82c81c45f722ed7ca28d[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 12 08:06:20 2022 +0000
+
+    Update criterion requirement from 0.3.4 to 0.4.0
+    
+    Updates the requirements on [criterion](https://github.com/bheisler/criterion.rs) to permit the latest version.
+    - [Release notes](https://github.com/bheisler/criterion.rs/releases)
+    - [Changelog](https://github.com/bheisler/criterion.rs/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/bheisler/criterion.rs/compare/0.3.4...0.4.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: criterion
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 96f9cb9ad89f2b6fbb466d459c686c8b3a62aaaa[m
+Merge: 1978a1b 4023390
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Sep 1 20:42:55 2022 +0200
+
+    Merge pull request #301 from Icelk/master
+    
+    Make handshake dependencies optional.
+
+[33mcommit 4023390d386341576281e5929cfff919c251f2d8[m
+Author: Icelk <main@icelk.dev>
+Date:   Tue Aug 30 09:22:38 2022 +0200
+
+    Make handshake dependencies optional.
+
+[33mcommit 1978a1b5ffaa31251cbf7b2f7ecd8947a463bba1[m
+Merge: 137b690 4bea1df
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Aug 29 21:15:41 2022 +0200
+
+    Merge pull request #299 from benesch/patch-1
+    
+    Switch from `sha-1` to `sha1`
+
+[33mcommit 4bea1dfb707e92f571c6b27a81d1e97e5db54c0b[m
+Author: Nikhil Benesch <nikhil.benesch@gmail.com>
+Date:   Sun Aug 28 21:55:57 2022 -0400
+
+    Switch from `sha-1` to `sha1`
+    
+    The RustCrypto project recently got control of the crate name `sha1`. This
+    commit switches over to the new name; the old `sha-1` name is now deprecated.
+    
+    Details: https://github.com/RustCrypto/hashes/pull/350
+
+[33mcommit 137b690abec01b7eb34c4338b28ddfb124e73678[m
+Merge: f85eaad fd96a35
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Wed Aug 3 16:27:16 2022 +0200
+
+    Merge pull request #294 from snapview/queue-unit-test
+    
+    tests: add a regression test for the queue logic
+
+[33mcommit fd96a353005b0a21ebe74a58373c7729a741fda2[m
+Author: Daniel Abramov <daniel.abramov@bsi-software.com>
+Date:   Wed Aug 3 16:13:03 2022 +0200
+
+    tests: add a regression test for the queue logic
+
+[33mcommit f85eaaddaa1d2899ce8441e71bba0ef238445441[m
+Merge: 3edc4c2 0b9d2a6
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Fri Jul 29 12:12:29 2022 +0200
+
+    Merge pull request #292 from snapview/revert-291-buffering
+    
+    Revert "add support for batching websocket messages"
+
+[33mcommit 0b9d2a649bdb8ac6d6c4a10812b0ede8f7116aa2[m
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Fri Jul 29 11:48:12 2022 +0200
+
+    Revert "add support for batching websocket messages"
+
+[33mcommit 3edc4c286bf08638f42d8c63acf4c1282b9a72b0[m
+Merge: 3bc195a 68daa29
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Thu Jul 28 21:34:57 2022 +0200
+
+    Merge pull request #291 from RustUser246/buffering
+    
+    add support for batching websocket messages
+
+[33mcommit 68daa29b196e00c505c773af1a60ad779653d423[m
+Author: RustUser246 <rustuser246@gmail.com>
+Date:   Tue Jul 26 23:46:06 2022 +0100
+
+    add support for batching websocket messages
+
+[33mcommit 3bc195a42f7db67f9d2f8e9bca40ff6eefbc8c53[m[33m ([m[1;33mtag: v0.17.3[m[33m)[m
+Author: Daniel Abramov <daniel.abramov@bsi-software.com>
+Date:   Tue Jul 12 19:46:24 2022 +0200
+
+    Bump version and update the changelog
+
+[33mcommit fbac5027ee338256b35982a11779a287a8fd0342[m
+Merge: b8ccbcf 80d0547
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sun Jun 19 17:57:01 2022 +0200
+
+    Merge pull request #287 from n3oney/master
+    
+    fix: uppercase origin header
+
+[33mcommit 80d0547fab5e4e510c73fb0c30f53d731864c37b[m
+Author: n3oney <neoney@pm.me>
+Date:   Sat Jun 18 23:31:42 2022 +0200
+
+    fix: uppercase origin header
+
+[33mcommit b8ccbcf2a198bf846bb8d229e5509a769f729288[m
+Author: Daniel Abramov <daniel.abramov@bsi-software.com>
+Date:   Tue Apr 19 19:39:19 2022 +0200
+
+    chore: update the documentation
+    
+    Fixes #280.
+
+[33mcommit bb546acd7682f18279ed75b12817a2a444023513[m
+Merge: aeed529 fa70a37
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Mar 22 17:53:58 2022 +0100
+
+    Merge pull request #273 from kangalioo/msrv-1.51
+    
+    Downgrade MSRV to 1.51
+
+[33mcommit fa70a370c8eded25022622098bea1493e5a0fe8f[m
+Author: kangalioo <jannik.a.schaper@web.de>
+Date:   Sat Mar 19 23:38:42 2022 +0100
+
+    Downgrade MSRV to 1.51
+
+[33mcommit aeed5295ae7107b627bd3a81b46d8ef58eba541c[m
+Merge: c96dc7c 1d9bdbc
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Mar 17 14:45:19 2022 +0100
+
+    Merge pull request #271 from kazk/update-autobahn-expected
+    
+    Update autobahn/expected-results.json for #246
+
+[33mcommit c96dc7c4711b5104054e9ffbe4893035e038028a[m
+Merge: 45dad40 8cc7e7e
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Mar 17 14:44:19 2022 +0100
+
+    Merge pull request #272 from kazk/fix-autobahn-scripts
+    
+    Fix autobahn scripts
+
+[33mcommit 8cc7e7e68f69b9687b6bb2363ee8eaa5331e34ea[m
+Author: kazk <kazk.dev@gmail.com>
+Date:   Wed Mar 16 01:25:50 2022 -0700
+
+    Fix autobahn scripts
+
+[33mcommit 1d9bdbcfa380c21d9087e5013f4892852558c067[m
+Author: kazk <kazk.dev@gmail.com>
+Date:   Mon Mar 14 23:22:49 2022 -0700
+
+    Update autobahn/expected-results.json for #246
+
+[33mcommit 45dad40cb544ac6bee91afb961a589938cbb514d[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Mar 2 16:47:46 2022 +0100
+
+    chore: update README
+
+[33mcommit 4e6d339a4e825a737be5fc878c9675b6238a5fe5[m[33m ([m[1;33mtag: v0.17.2[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 21 15:40:27 2022 +0100
+
+    Update changelog, bump version
+
+[33mcommit d9a1ab2cb28d7aa15177309aab7e3b972838a7e2[m
+Merge: 2171c99 d21c7b5
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 21 15:38:44 2022 +0100
+
+    Merge pull request #266 from teozkr/chore/rust-1.56
+    
+    Downgrade MSRV to 1.56
+
+[33mcommit 2171c997f5279b6b56aa0f50cc7fcf74e02c9b24[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 21 15:37:13 2022 +0100
+
+    test: add a unit test for invalid `http::Request`
+    
+    This is to make sure that we don't panic anymore in such cases:
+    https://github.com/snapview/tungstenite-rs/pull/267
+
+[33mcommit 4e3e079131fe8e6c3c243269057a0eecc47c1692[m
+Merge: 5695f5d 1a48959
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 21 15:23:30 2022 +0100
+
+    Merge pull request #267 from sdroege/header-name-from-static-panic
+    
+    `HeaderName::from_static` requires all-lowercase HTTP2
+
+[33mcommit 1a48959adc6718dbd2072ed49bfba5024a5e85be[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Mon Feb 21 15:19:46 2022 +0200
+
+    `HeaderName::from_static` requires all-lowercase HTTP2 compatible header names
+    
+    and was passed header names with uppercase characters instead, which
+    made it panic.
+
+[33mcommit d21c7b53ca15f06ff6d2fc9819f0f7ad30ddaff3[m
+Author: Teo Klestrup Röijezon <teo@nullable.se>
+Date:   Mon Feb 21 13:04:36 2022 +0100
+
+    Downgrade MSRV to 1.56
+
+[33mcommit 5695f5d8918f723f317e1bb8c7bd2c94adc2ff76[m[33m ([m[1;33mtag: v0.17.1[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Feb 16 13:01:25 2022 +0100
+
+    Bump version
+
+[33mcommit 6f25eaef781e1c0799fa57aece2bf304d656cb66[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Feb 16 12:16:22 2022 +0100
+
+    general: specify the MSRV
+
+[33mcommit 653296a1d4e418c46a253fd9174b79759f5b932f[m[33m ([m[1;33mtag: v0.17.0[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 14 14:43:14 2022 +0100
+
+    Bump the version and update the changelog
+
+[33mcommit d079090031b8628fd33bca6e4622af156648c02c[m
+Merge: 1b99913 d661f57
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Sun Feb 6 20:40:49 2022 +0100
+
+    Merge pull request #259 from snapview/new-handling-of-request
+    
+    client: overhaul of the request generation
+
+[33mcommit d661f57224c4dfd1c46fe5cde6761637ae2f5c4d[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Feb 3 19:33:55 2022 +0100
+
+    client: overhaul of the request generation
+
+[33mcommit 1b999136efb8d8349d2b461e28c3f5c0c106ea4c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Feb 3 19:35:48 2022 +0100
+
+    clippy: fix warnings
+
+[33mcommit 47f669dacb8d785e24fd6c0bd8ac7050eb9e8db9[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Feb 3 19:12:32 2022 +0100
+
+    minor: re-format the `buffer.rs`
+
+[33mcommit cd79500d25f43e89d5f9f0134688c7fa3325f859[m
+Merge: 7f1b4cb 469aaf3
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Dec 8 18:29:11 2021 +0100
+
+    Merge pull request #250 from Voronar/message_raw_frame
+    
+    feature: Raw frame message
+
+[33mcommit 7f1b4cb7cb6dbfaec76aba059eb20278a4e030a3[m
+Merge: 68541e4 63acf8e
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Dec 8 17:57:24 2021 +0100
+
+    Merge pull request #253 from snapview/dependabot/cargo/sha-1-0.10
+    
+    Update sha-1 requirement from 0.9 to 0.10
+
+[33mcommit 63acf8e9c05a2ae9932f2f69319717c41ab046ee[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 8 08:04:44 2021 +0000
+
+    Update sha-1 requirement from 0.9 to 0.10
+    
+    Updates the requirements on [sha-1](https://github.com/RustCrypto/hashes) to permit the latest version.
+    - [Release notes](https://github.com/RustCrypto/hashes/releases)
+    - [Commits](https://github.com/RustCrypto/hashes/compare/groestl-v0.9.0...md2-v0.10.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: sha-1
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 469aaf37beaa23695815c5b34fc76eba9efa73b1[m
+Author: Kirill A. Khalitov <voronar@gmail.com>
+Date:   Tue Nov 2 17:05:03 2021 +0300
+
+    feature: Raw fragment message
+
+[33mcommit 68541e409543f5bff9d2d4913b7521c58ae00c04[m
+Merge: 958fdb9 9f56356
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Nov 3 19:00:29 2021 +0100
+
+    Merge pull request #227 from LYF1999/master
+    
+    fix: write some header twice
+
+[33mcommit 958fdb93d7d58cc65324a0e8eee01f515a67d284[m[33m ([m[1;33mtag: v0.16.0[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Nov 3 18:52:13 2021 +0100
+
+    Update changelog and bump the version
+
+[33mcommit 4729b0f00006c6f73a17c9248ae4e6005ec88d30[m
+Merge: 54cca09 05cefa7
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Oct 27 15:11:53 2021 +0200
+
+    Merge pull request #244 from dnaka91/rustls-0.20
+    
+    Upgrade to rustls 0.20
+
+[33mcommit 54cca09538ebe40927a22647d47027eb547ff38a[m
+Merge: 6ff4ffa 76eaa8a
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Oct 27 10:47:51 2021 +0200
+
+    Merge pull request #241 from PhotonQuantum/master
+    
+    Move ReadBuffer chunk to heap
+
+[33mcommit 05cefa73c48643aca5f7c368d42d78b6db889e25[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Wed Oct 27 12:05:06 2021 +0900
+
+    Switch to offical rustls-native-certs 0.6
+
+[33mcommit 6ff4ffa8e96191a400358babf6b830c2455eec71[m
+Merge: 9514110 3e45100
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Oct 26 19:36:34 2021 +0200
+
+    Merge pull request #248 from FlorianUekermann/patch-1
+    
+    replace unwrap with ?
+
+[33mcommit 3e45100f5d0a6b664cff01d6ad9d9ebff7e2beab[m
+Author: Florian Uekermann <florian@uekermann.me>
+Date:   Sat Oct 23 00:03:09 2021 +0200
+
+    replace unwrap with ?
+
+[33mcommit 951411096d68e11b05e4f4d24e1409b729356370[m
+Merge: 1bbb4ce 5ad8cef
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Oct 20 17:44:54 2021 +0200
+
+    Merge pull request #246 from snapview/echo-close-code
+    
+    Echo the `CloseFrame` when close is initiated
+
+[33mcommit 1bbb4ce292529adb4a50f9c93cea6c93ed8a5f2f[m
+Merge: d0b924c 6c4d2ba
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Oct 20 17:38:49 2021 +0200
+
+    Merge pull request #247 from snapview/clippy-fixes
+    
+    Fix newly introduced clippy warnings
+
+[33mcommit 6c4d2bab040d76bda03a43922f42c7aa939e20bb[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Oct 19 22:43:30 2021 +0200
+
+    Fix newly introduced clippy warnings
+
+[33mcommit 5ad8cef6ffb7edc372343717b6f86be16805e08c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Oct 19 22:40:21 2021 +0200
+
+    Echo the `CloseFrame` when close is initiated
+
+[33mcommit d0b924c088012fb100394bc449a90961ec972fff[m
+Merge: 7a359f0 b2ad612
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Oct 18 18:43:57 2021 +0200
+
+    Merge pull request #243 from XAMPPRocky/update-net2
+    
+    Update net2 to 0.2.37
+
+[33mcommit f4bb653aa03665a83bd98068432602f07cd5634b[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Mon Oct 18 11:27:03 2021 +0900
+
+    Upgrade to rustls 0.20
+
+[33mcommit b2ad6127f6af47046ff719101b39604a770050af[m
+Author: Erin Power <xampprocky@gmail.com>
+Date:   Sun Oct 17 12:56:55 2021 +0200
+
+    Update net2 to 0.2.37
+
+[33mcommit 76eaa8ac60747e011657b1e3dd52c1c1eb14076b[m
+Author: PhotonQuantum <self@lightquantum.me>
+Date:   Fri Oct 15 07:47:24 2021 +0800
+
+    Add benchmark for stack read buffer
+
+[33mcommit 3f5d0985f04b3af26dd37f9cc3c74a44dd0dbfcf[m
+Author: PhotonQuantum <self@lightquantum.me>
+Date:   Fri Oct 15 07:12:53 2021 +0800
+
+    Move ReadBuffer chunk to heap
+
+[33mcommit 7a359f0b4f4d4f14385a74766d46eaeec8632bce[m
+Merge: d4a5ffc 389b3e4
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Oct 14 19:45:57 2021 +0200
+
+    Merge pull request #238 from snapview/dependabot/cargo/rustls-0.20.0
+    
+    Update rustls requirement from 0.19.0 to 0.20.0
+
+[33mcommit d4a5ffcb5bdfc6adce9538bde002e9d0433a5a7d[m
+Merge: 8969744 63ab298
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Oct 14 19:45:49 2021 +0200
+
+    Merge pull request #222 from snapview/dependabot/cargo/webpki-roots-0.22
+    
+    Update webpki-roots requirement from 0.21 to 0.22
+
+[33mcommit 389b3e4cff2c7d0a5a5683762e0e73e391e04d6c[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 27 08:03:19 2021 +0000
+
+    Update rustls requirement from 0.19.0 to 0.20.0
+    
+    Updates the requirements on [rustls](https://github.com/rustls/rustls) to permit the latest version.
+    - [Release notes](https://github.com/rustls/rustls/releases)
+    - [Changelog](https://github.com/rustls/rustls/blob/main/OLDCHANGES.md)
+    - [Commits](https://github.com/rustls/rustls/compare/v/0.19.0...v/0.20.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: rustls
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 9f563561a4d44ca19a5552901288a504e3afdec7[m
+Author: yifei <lyfmagic99@gmail.com>
+Date:   Wed Aug 18 22:10:29 2021 +0800
+
+    fix: return err if try to overwrite standard hedaer
+
+[33mcommit 89697449ff27707fd0d7299ea5868eb13d9af4a5[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Aug 17 15:19:57 2021 +0200
+
+    Fixes #230
+
+[33mcommit b3759a76bc6f3c4bb4c8e4503be3bc9c42ee28df[m
+Merge: 3f5fde0 858830a
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Aug 12 17:04:43 2021 +0200
+
+    Merge pull request #229 from dnaka91/reduce-package-size
+    
+    Reduce crate package size
+
+[33mcommit 3f5fde0fb941b49fdf058a3beb0dbf09da5be80c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Aug 12 17:04:05 2021 +0200
+
+    Remove the "unreleased" suffix from the changelog
+
+[33mcommit 1d9d700bccc685f2c01f02523890e4bcb302df63[m[33m ([m[1;33mtag: v0.15.0[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Aug 12 17:02:48 2021 +0200
+
+    Bump version
+
+[33mcommit 9b9f504ea1f84d1832137026cedd5f45de2ee742[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Aug 12 17:02:16 2021 +0200
+
+    Update the changelog
+
+[33mcommit 858830aa5ebc3a0796a3671977f7619c5475c2fb[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Wed Aug 11 11:33:41 2021 +0900
+
+    Reduce crate package size
+
+[33mcommit 63ab29804d9f938a520366c9fe9b70fa57333aaf[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Jul 28 14:59:18 2021 +0000
+
+    Update webpki-roots requirement from 0.21 to 0.22
+    
+    Updates the requirements on [webpki-roots](https://github.com/ctz/webpki-roots) to permit the latest version.
+    - [Release notes](https://github.com/ctz/webpki-roots/releases)
+    - [Commits](https://github.com/ctz/webpki-roots/compare/v/0.21.0...v/0.22.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: webpki-roots
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 239f8e293f8f9f9fce61ee11e44fda5ff19fa574[m
+Merge: bc1b88b 32450ae
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Jul 28 16:58:08 2021 +0200
+
+    Merge pull request #226 from dnaka91/connector
+    
+    Add a connector to configure TLS config
+
+[33mcommit 32450ae5af0070c7f3fd8341d244525119672506[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Fri Jul 23 21:26:44 2021 +0900
+
+    Add a connector to configure TLS config
+
+[33mcommit bc1b88b82006c456705ed84f5f25016559b429f3[m
+Merge: c9c2f49 5e0fde5
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Jul 21 16:37:10 2021 +0200
+
+    Merge pull request #223 from dnaka91/clippy-and-deprecation
+    
+    Fix clippy warnings and deprecated settings
+
+[33mcommit 5e0fde5dc65b450bedfe343fb11ccd8e11a4e56c[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Wed Jul 21 10:43:44 2021 +0900
+
+    Fix clippy warnings and deprecated settings
+
+[33mcommit c9c2f49305f8cf33e02147e23e48c35d0603052e[m
+Merge: 5462b3b 55eb6df
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Jul 15 10:52:11 2021 +0200
+
+    Merge pull request #221 from snapview/dependabot/cargo/env_logger-0.9.0
+    
+    Update env_logger requirement from 0.8.1 to 0.9.0
+
+[33mcommit 55eb6df51b7312cae1a1b81cb28815ccd73c6552[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Jul 15 08:02:14 2021 +0000
+
+    Update env_logger requirement from 0.8.1 to 0.9.0
+    
+    Updates the requirements on [env_logger](https://github.com/env-logger-rs/env_logger) to permit the latest version.
+    - [Release notes](https://github.com/env-logger-rs/env_logger/releases)
+    - [Changelog](https://github.com/env-logger-rs/env_logger/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/env-logger-rs/env_logger/compare/v0.8.1...v0.9.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: env_logger
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 5462b3b98670d8b469d91598f944b00010ad9203[m
+Merge: 2f40edb 8b029ba
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Jul 15 09:59:50 2021 +0200
+
+    Merge pull request #217 from dnaka91/root-certs-feature-flags
+    
+    Enable root cert providers through feature flags
+
+[33mcommit 8b029baa8dd65e513b7ae4264ae472596c9e2f4c[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Wed Jul 14 00:21:37 2021 +0900
+
+    Fix wrong feature name when setting certs
+
+[33mcommit 02fb5db98f1aed93ef64b27fb4b874de208ba1f6[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Tue Jul 13 17:52:47 2021 +0900
+
+    Mention changes in the changelog
+
+[33mcommit 3efb0544c692948be660ebc26d61177b7705963a[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Tue Jul 13 17:46:48 2021 +0900
+
+    Remove the rustls-tls feature flag
+
+[33mcommit 3fbd583f297bb523bbf0fd6cd2a392f90994bedd[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Mon Jul 12 22:37:52 2021 +0900
+
+    Enable root cert providers through feature flags
+
+[33mcommit 2f40edb91ea6dd15c71c7d1939fa533101b46686[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Sat Jul 10 13:16:51 2021 +0200
+
+    Update the changelog
+
+[33mcommit 6f56461f0fcd99ad6368144a6f837e5025febf27[m[33m ([m[1;33mtag: v0.14.0[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jul 9 12:46:15 2021 +0200
+
+    Update the changelog
+
+[33mcommit 32f4106e4f9db8ccb6102e6bf843c08b9357a6e2[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jul 9 12:42:44 2021 +0200
+
+    Bump version
+
+[33mcommit 25a7f9e18c5226e7bdfca18f9f7c3af182af60f6[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Jul 8 17:22:09 2021 +0200
+
+    Trigger the CI/CD for Travis
+
+[33mcommit c742916a5e7958aa4cb2ac40e56eda77bf49b9c2[m
+Merge: 8c3172c 83722c2
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Jul 8 14:36:33 2021 +0200
+
+    Merge pull request #214 from snapview/faster-input-buffer
+    
+    Faster implementation of `InputBuffer`
+
+[33mcommit 83722c24aa859f884444d27106dc02e60c437c75[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Jul 6 16:33:44 2021 +0200
+
+    Clean up the read portion of the buffer
+
+[33mcommit ddddd791ef0cfe7ae75e3af897be22c5034ea2ed[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Jul 5 18:24:54 2021 +0200
+
+    Implement benchmarks for buffers
+
+[33mcommit 2787031c2f15e8465bae25c46fdbcdeb609d0bb7[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jul 2 19:22:47 2021 +0200
+
+    Replace `InputBuffer` with a faster alternative
+    
+    We're also deprecating the usage of `input_buffer` crate, see:
+    https://github.com/snapview/input_buffer/issues/6#issuecomment-870548303
+
+[33mcommit 8c3172c0146945cb69d61717e317b6f05619a1ed[m
+Merge: 9a4fff4 a729b37
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu May 27 13:09:30 2021 +0200
+
+    Merge pull request #205 from yusdacra/master
+    
+    downgrade webpki, use rustls-native-certs instead of webpki-roots
+
+[33mcommit a729b37b224744fcd5bcf71695fedb4849474b1f[m
+Author: Yusuf Bera Ertan <y.bera003.06@protonmail.com>
+Date:   Wed May 26 16:07:54 2021 +0300
+
+    Update src/client.rs
+    
+    Co-authored-by: Daniel Abramov <inetcrack2@gmail.com>
+
+[33mcommit 9a4fff455f81543845bfd00f40f2dd578ee52825[m
+Merge: 141a03d 94aef58
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue May 25 18:03:48 2021 +0200
+
+    Merge pull request #207 from teymour-aldridge/patch-1
+    
+    Fix a typo in a docstring
+
+[33mcommit 94aef58646c117a28754d24de3aa905679a1e457[m
+Author: Teymour Aldridge <42674621+teymour-aldridge@users.noreply.github.com>
+Date:   Mon May 24 16:09:33 2021 +0100
+
+    Fix a typo in a docstring
+
+[33mcommit d7e2f0a72a64cfca463b51547b9d8c9fe4bbdd00[m
+Author: Yusuf Bera Ertan <y.bera003.06@protonmail.com>
+Date:   Wed May 19 01:54:50 2021 +0300
+
+    downgrade webpki, use rusttls-native-certs instead of webpki-roots
+
+[33mcommit 141a03df0d09159d7426036d6a8c89b4be8c6ec8[m
+Merge: de21e2f 41999ee
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue May 11 12:40:15 2021 +0200
+
+    Merge pull request #204 from snapview/tls-features
+    
+    Change default TLS features
+
+[33mcommit 41999eeb0ce417560c086ee75a2e7c5fd26b4e2c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon May 10 12:27:28 2021 +0200
+
+    Change default TLS features
+    
+    Closes #202.
+
+[33mcommit de21e2fd8fccb54cd680277b8654e15a93caedeb[m
+Merge: 550cc49 485d04b
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Apr 23 15:15:08 2021 +0200
+
+    Merge pull request #200 from snapview/use-autobahn-in-docker
+    
+    Use Autobahn Suite from Docker, symmetrical to snapview/tokio-tungstenite#165
+
+[33mcommit 485d04b099e4c5485fcbc51c3e8b7d7a4e4b1e78[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Apr 22 19:33:27 2021 +0200
+
+    tests: rely on Autobahn Suite usage from docker
+    
+    See https://github.com/snapview/tokio-tungstenite/pull/165 for more
+    details.
+
+[33mcommit 550cc49cc61450cd9633ddd251b356de9945ea81[m
+Merge: 204d984 4f024a9
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Apr 12 22:06:38 2021 +0200
+
+    Merge pull request #193 from snapview/dependabot/cargo/webpki-0.22.0
+    
+    Update webpki requirement from 0.21.4 to 0.22.0
+
+[33mcommit 204d9848978fa9559e1818065e5bee1cb71b6f0f[m
+Merge: e6fee89 77c5b46
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Apr 12 22:06:24 2021 +0200
+
+    Merge pull request #194 from snapview/dependabot/cargo/webpki-roots-0.22.0
+    
+    Update webpki-roots requirement from 0.21.0 to 0.22.0
+
+[33mcommit 77c5b46c1b3b62caac3592aa120200ae62d18273[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Apr 12 06:31:24 2021 +0000
+
+    Update webpki-roots requirement from 0.21.0 to 0.22.0
+    
+    Updates the requirements on [webpki-roots](https://github.com/ctz/webpki-roots) to permit the latest version.
+    - [Release notes](https://github.com/ctz/webpki-roots/releases)
+    - [Commits](https://github.com/ctz/webpki-roots/compare/v/0.21.0...v/0.22.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 4f024a9ae96a06a04423acc6e56e609c3944662d[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Apr 12 06:31:19 2021 +0000
+
+    Update webpki requirement from 0.21.4 to 0.22.0
+    
+    Updates the requirements on [webpki](https://github.com/briansmith/webpki) to permit the latest version.
+    - [Release notes](https://github.com/briansmith/webpki/releases)
+    - [Commits](https://github.com/briansmith/webpki/commits)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit e6fee8972605d8e6a3cd23db5826a5fb8b14beb5[m
+Merge: 3721ca8 abebb33
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Mar 4 11:06:14 2021 +0100
+
+    Merge pull request #186 from de-vri-es/more-from-for-error
+    
+    Implement From<CapacityError> and From<UrlError> for Error.
+
+[33mcommit abebb330af5d0dfd7cc1e2675c8adac384f83d4a[m
+Author: Maarten de Vries <maarten@de-vri.es>
+Date:   Wed Mar 3 21:04:42 2021 +0100
+
+    Implement From<CapacityError> and From<UrlError> for Error.
+
+[33mcommit 3721ca8d0bb9a07a858fb947b72a58dc3308b5aa[m
+Merge: f59f20b 5ce9e7c
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Mar 2 18:31:44 2021 +0100
+
+    Merge pull request #184 from LukasKalbertodt/master
+    
+    Add `From<ProtocolError>` impl for `Error`
+
+[33mcommit 5ce9e7ca39ab38f9d00aaa22e92683e4c9bf2797[m
+Author: Lukas Kalbertodt <lukas.kalbertodt@gmail.com>
+Date:   Tue Mar 2 15:57:44 2021 +0100
+
+    Add `From<ProtocolError>` impl for `Error`
+
+[33mcommit f59f20bc804fa82091046b801383050381c68ab1[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Mar 1 17:38:10 2021 +0100
+
+    doc: update README
+
+[33mcommit c101024c28c1d6d8fa5a93a5a55cad195950602e[m[33m ([m[1;33mtag: v0.13.0[m[33m)[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Mon Feb 8 21:58:42 2021 +0900
+
+    Add support for rustls as TLS backend (#166)
+    
+    * Add support for rustls as TLS backend
+    
+    * Use a "use-*" prefix for the TLS features
+    
+    * Only enable rustls if native-tls is not enabled
+    
+    * Allows several TLS components to coexist
+    
+    * Update docs for rustls mentions
+    
+    * Enable all features on docs.rs
+    
+    * Rename TLS feature flags from "use-*" to "*-tls"
+    
+    * Make native-tls the default
+    
+    * Move TLS related errors to a separate enum
+    
+    * Add changelog entry about rustls support
+    
+    * Fix wrong naming in main error enum
+    
+    * Simplify docs about tls feature flag usage
+
+[33mcommit 985d6571923c2eac3310d8a9981a2306ae675214[m
+Merge: 5586d0a 9661274
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Sat Feb 6 23:43:36 2021 +0100
+
+    Merge pull request #174 from de-vri-es/derive-accept-key
+    
+    Expose `handshake::derive_accept_key` as public API.
+
+[33mcommit 96612748d1128b3bdcfa31ac2ccb77275f5ad569[m
+Author: Maarten de Vries <maarten@de-vri.es>
+Date:   Sat Feb 6 18:32:54 2021 +0100
+
+    Expose `handshake::derive_accept_key` as public API.
+
+[33mcommit 5586d0af5162bcb3f13f4dabad432f0a90f601b8[m
+Merge: 36f617a 79dcf9f
+Author: Matěj Laitl <matej@laitl.cz>
+Date:   Mon Jan 11 15:52:45 2021 +0100
+
+    Merge pull request #168 from WiredSound/master
+    
+    Create specific error types for protocol, URL, and capacity errors
+
+[33mcommit 79dcf9f77c04133608d1e07ba1d555d93d11de4a[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 11 12:21:40 2021 +0000
+
+    Use matches! macro in tests
+
+[33mcommit 8b88fb2444851d30d10af3b23f637d9b74af59c5[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 11 12:09:07 2021 +0000
+
+    Remove unnecessary changelog lines
+
+[33mcommit 36f617ae1b617533c5ccf0a6f7471510fe0d611c[m
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sun Jan 10 20:28:50 2021 +0100
+
+    Update README.md
+    
+    Closes #157
+
+[33mcommit 7c9e684dedd42e27b109545f6d54f27e65b88720[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 21:46:00 2021 +0000
+
+    Add entry to CHANGELOG.md for version 0.13.0
+
+[33mcommit f4aa926092291a5ee824c41a15d48a2087e44810[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 21:35:06 2021 +0000
+
+    Change ProtocolErrorType to ProtocolError in test
+
+[33mcommit 3e485ddb96de9b9ed678cc784ef57b091a63a57d[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 21:31:03 2021 +0000
+
+    Rename UrlErrorType to just UrlError, implement using thiserror
+
+[33mcommit 98377cf3dddc6f7a8e5d2fa5aa3d3018e68a95b4[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 21:23:03 2021 +0000
+
+    Rename ProtocolErrorType to just ProtocolError, implement using thiserror
+
+[33mcommit 652a6b776eb80f8c9b9a98f4429db502c8310bf2[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 21:12:33 2021 +0000
+
+    Rename CapacityErrorType to just CapacityError, implement using thiserror
+
+[33mcommit e6d66698a325cb97ea2a1c01c7ccb8baee549bfd[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 21:04:41 2021 +0000
+
+    Use thiserror to streamline the implementation of the main Error type
+
+[33mcommit a1b4b2de61e09baf844e4d19687ed0b9263c2e5f[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sat Jan 9 20:42:05 2021 +0000
+
+    Bump version to 0.13.0
+
+[33mcommit 78d59f92661d80ccccdbf72308e68de7f8be058d[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 4 15:29:56 2021 +0000
+
+    Escape square brackets in doc comment
+
+[33mcommit b85a66196721a1e093111ffb597d8c594a31105e[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 4 15:20:35 2021 +0000
+
+    Minor change to wording of README
+
+[33mcommit 0b34bee94f035bc5aea9545c8679eee008bb1212[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 4 15:16:29 2021 +0000
+
+    Add capacity error types
+
+[33mcommit aaebb432f01405b3006c1a16a293bd3f6f999957[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 4 12:20:36 2021 +0000
+
+    Fix clippy warnings
+
+[33mcommit 6f846da0e327275420418ff51f951e29c4055695[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Mon Jan 4 12:17:22 2021 +0000
+
+    Add protocol error types
+
+[33mcommit 34c6e63d876372b50b12b96796f7c8973fa7503a[m
+Author: WiredSound <maxoblack@yahoo.com>
+Date:   Sun Jan 3 22:15:06 2021 +0000
+
+    Add specific URL error types
+
+[33mcommit 7265a8560cea928b204fb4ee944d400db4892362[m[33m ([m[1;33mtag: v0.12.0[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jan 8 13:17:35 2021 +0100
+
+    Add a changelog
+    
+    Fixes #45
+
+[33mcommit 6087e07aeddba86d62865ce1f5df63f9743381d4[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jan 8 13:15:38 2021 +0100
+
+    Bump version
+
+[33mcommit e1ae3872cd7588a6365ba7371d9392b86b2f1ce8[m
+Merge: bd2a43c c8c2360
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Jan 8 12:52:57 2021 +0100
+
+    Merge pull request #159 from adambezecny/master
+    
+    WebSocketConfig extended to allow accepting unmasked client frames
+
+[33mcommit bd2a43c40a14b7f132c7c533423a9323781695d1[m
+Merge: 06e5689 d24e3e4
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Jan 8 12:45:36 2021 +0100
+
+    Merge pull request #170 from dnaka91/update-input-buffer
+    
+    Update input_buffer to use the official version
+
+[33mcommit d24e3e4734f4f9ac5ef459f3c6fffea907fdb843[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Fri Jan 8 10:29:45 2021 +0900
+
+    Update input_buffer to use the official version
+
+[33mcommit 06e5689cca2b21765c6c488d10b275e482bec4b8[m
+Merge: 208061b 82e09ea
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Jan 7 19:09:13 2021 +0100
+
+    Merge pull request #167 from dnaka91/remove-dyn-dispatch
+    
+    Remove remaining dynamic dispatch usage
+
+[33mcommit 82e09ea025c50cf4aa8d5163803651781a09d59c[m
+Author: Dominik Nakamura <dnaka91@gmail.com>
+Date:   Sat Jan 2 16:45:50 2021 +0900
+
+    Remove remaining dynamic dispatch usage
+
+[33mcommit 208061ba284eaf95a54c1b9b6968f570004c90de[m
+Author: Antoine Catton <devel@antoine.catton.fr>
+Date:   Wed Dec 30 17:35:40 2020 +0100
+
+    Docfix: mio::tcp has been renamed to mio::net in its latest version (#164)
+    
+    This a relic of the old name in the function documentation.
+
+[33mcommit 4d70f63cbf7b69a0125dd42877d57e198e5b9977[m
+Author: Austaras <austaras@outlook.com>
+Date:   Thu Dec 31 00:35:10 2020 +0800
+
+    Add a custom response builder (#158)
+    
+    * add custom reponse builder
+    
+    * change names and shorten implemtation
+    
+    * Re-format the code
+    
+    Co-authored-by: Daniel Abramov <dabramov@snapview.de>
+
+[33mcommit b0a6bae8321faa0bbada5e5ef9e7d61fc3bfc70e[m
+Merge: 56239c8 75bf9b8
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Dec 30 17:19:24 2020 +0100
+
+    Merge pull request #163 from nickelc/bytes
+    
+    Update to bytes 1.0
+
+[33mcommit 75bf9b87301fd31e25b2cd0459b33b20772c66f8[m
+Author: Constantin Nickel <constantin.nickel@gmail.com>
+Date:   Tue Dec 29 21:53:37 2020 +0100
+
+    use snapview/inputer_buffer@master
+
+[33mcommit 56239c8e2fa1325147fba713602ddb6e9ec5e657[m
+Merge: a7daafd ecc3997
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Dec 29 21:37:46 2020 +0100
+
+    Merge pull request #161 from snapview/dependabot/cargo/rand-0.8.0
+    
+    Update rand requirement from 0.7.2 to 0.8.0
+
+[33mcommit 8417078ef30557e542fe1109a842c8856e232e44[m
+Author: Constantin Nickel <constantin.nickel@gmail.com>
+Date:   Wed Dec 23 09:37:43 2020 +0100
+
+    Update to bytes 1.0
+
+[33mcommit ecc3997bde92c01b38126d1c6a53f453885ebb72[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Dec 21 07:07:33 2020 +0000
+
+    Update rand requirement from 0.7.2 to 0.8.0
+    
+    Updates the requirements on [rand](https://github.com/rust-random/rand) to permit the latest version.
+    - [Release notes](https://github.com/rust-random/rand/releases)
+    - [Changelog](https://github.com/rust-random/rand/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/rust-random/rand/compare/0.7.2...0.8.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit c8c236056b1464dee2fb2fbf5e1e68b03b72c7aa[m
+Author: Adam Bezecny (DHL IT Services) <Adam.Bezecny@dhl.com>
+Date:   Wed Dec 2 22:43:47 2020 +0100
+
+    if streamlined
+
+[33mcommit 2e55ed0fcccf3bef2e59487d36ce7d3487bc4e59[m
+Author: Adam Bezecny (DHL IT Services) <Adam.Bezecny@dhl.com>
+Date:   Tue Dec 1 19:21:45 2020 +0100
+
+    comment streamlined
+
+[33mcommit 9f292d21fc411d9c2fb76d872be19912024c03c8[m
+Author: Adam Bezecny (DHL IT Services) <Adam.Bezecny@dhl.com>
+Date:   Tue Dec 1 19:19:45 2020 +0100
+
+    minor fixes
+
+[33mcommit 4f7dab5d7b150da3f7bc333ed6f2bb601c26f6af[m
+Author: Adam Bezecny (DHL IT Services) <Adam.Bezecny@dhl.com>
+Date:   Mon Nov 30 19:25:55 2020 +0100
+
+    documentation for server_allow_unmasked improved
+
+[33mcommit a9adb42343df447e74071f55e408966b073f0419[m
+Author: Adam Bezecny (DHL IT Services) <Adam.Bezecny@dhl.com>
+Date:   Fri Nov 27 21:38:33 2020 +0100
+
+    server_allow_unmasked changed from Option<bool> to bool
+
+[33mcommit 0121bf968258990d0a3a9cbb88f5830d82cff411[m
+Author: Adam Bezecny (DHL IT Services) <Adam.Bezecny@dhl.com>
+Date:   Thu Nov 26 20:51:50 2020 +0100
+
+    WebSocketConfig extended to allow accepting unmasked client frames
+
+[33mcommit a7daafdfc8e46620c95caaa641abb983874fb8c0[m
+Merge: 2638bd6 fcacea7
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Nov 17 13:37:32 2020 +0100
+
+    Merge pull request #156 from snapview/clean-ups
+    
+    Regular maintenance
+
+[33mcommit fcacea7c9fbcdd9edb7c71a13c7fd494bd65bb6c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Nov 17 11:56:15 2020 +0100
+
+    chore: apply `clippy`
+
+[33mcommit 96d9eb75e5d8a33dcb5d49a77088f48b7961d8ce[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Nov 17 11:50:03 2020 +0100
+
+    chore: apply `fmt` to the whole project
+
+[33mcommit 2638bd69c7c330dcb51d7c2c364fbf443afc64bb[m
+Merge: 2e711fb 09f5d34
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Nov 17 11:41:51 2020 +0100
+
+    Merge pull request #148 from Redrield/feature/follow-3xx
+    
+    Add facilities to allow clients to follow HTTP 3xx redirects
+
+[33mcommit 09f5d34899416d950f9f51611c1757b189cd1ebd[m
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Nov 17 11:17:56 2020 +0100
+
+    use 3 redirects as default for `connect`
+
+[33mcommit a8e06d2b39c6c1f9091ce7af2adf2510575ab9d3[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Nov 16 19:49:17 2020 +0100
+
+    clean up http error handling
+
+[33mcommit 521f1a0767339a7e455cdc92580aa477900a50d7[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Nov 16 19:25:08 2020 +0100
+
+    clean up the redirect logic a bit
+
+[33mcommit 60f7b0f02453435605007e03ce07ef18e438a827[m
+Author: Redrield <redrield@gmail.com>
+Date:   Mon Oct 26 13:15:21 2020 -0400
+
+    Fix some code-review issues
+    
+    * Replace Redirection error with a general Http error that owns the
+    response
+    * Make the default client connect function iterative instead of
+    recursive
+    * Add a limit to the amount of redirects a client will attempt to
+    perform
+
+[33mcommit 6bce14fa26f8b73363a2baafe55ce28614a66469[m
+Author: Redrield <redrield@gmail.com>
+Date:   Thu Oct 1 18:27:51 2020 -0400
+
+    Add facilities to allow clients to follow HTTP 3xx redirects
+    
+    * The connect() function defined in this crate will automatically follow
+    redirecting responses.
+    * Adds Error::Redirection, which is a special case of Error::Http that
+    extracts the redirection target from the response headers, and stores it
+    in the error object. Client implementations that build upon tungstenite
+    can use this to implement redirecting.
+    * A catch-all solution for redirects is not possible due to the
+    abstraction transforming socket types to Read + Write, implementations
+    that use the client_* methods need to handle redirections themselves.
+
+[33mcommit 2e711fb6fd60c72e6923e5806a11b4b290afba75[m
+Merge: 2853699 88ff5f3
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Oct 23 15:49:48 2020 +0200
+
+    Merge pull request #154 from Horki/matches_macro_fix
+    
+    matches!: use macros; remove unused imports
+
+[33mcommit 88ff5f371fea8b1e829442acfdfa2a0329777456[m
+Author: Horki <ivanzvonimirhorvat@gmail.com>
+Date:   Fri Oct 23 00:51:48 2020 +0200
+
+    matches!: use macros; remove unused imports
+
+[33mcommit 2853699f319cecc0481e9ea7c604cfa66aa5e1ab[m
+Merge: 1571e8b f62bfcb
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Oct 19 20:12:56 2020 +0200
+
+    Merge pull request #152 from snapview/dependabot/cargo/env_logger-0.8.1
+    
+    Update env_logger requirement from 0.7.1 to 0.8.1
+
+[33mcommit 1571e8b6017d470bb0bff0bb029ee6ed02ce489f[m
+Merge: 96a8499 33f8464
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Oct 19 20:01:40 2020 +0200
+
+    Merge pull request #146 from snapview/dependabot/cargo/base64-0.13.0
+    
+    Update base64 requirement from 0.12.0 to 0.13.0
+
+[33mcommit f62bfcba0e4e3fcbd48fdc44369ebb7d0f03681a[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Oct 19 06:46:10 2020 +0000
+
+    Update env_logger requirement from 0.7.1 to 0.8.1
+    
+    Updates the requirements on [env_logger](https://github.com/env-logger-rs/env_logger) to permit the latest version.
+    - [Release notes](https://github.com/env-logger-rs/env_logger/releases)
+    - [Changelog](https://github.com/env-logger-rs/env_logger/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/env-logger-rs/env_logger/compare/v0.7.1...v0.8.1)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 33f84642116b89471ba44dbf11cb69cc51cf6dc7[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Oct 1 06:16:40 2020 +0000
+
+    Update base64 requirement from 0.12.0 to 0.13.0
+    
+    Updates the requirements on [base64](https://github.com/marshallpierce/rust-base64) to permit the latest version.
+    - [Release notes](https://github.com/marshallpierce/rust-base64/releases)
+    - [Changelog](https://github.com/marshallpierce/rust-base64/blob/master/RELEASE-NOTES.md)
+    - [Commits](https://github.com/marshallpierce/rust-base64/compare/v0.12.0...v0.13.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 96a8499533bbce405ce2f1becffecfe0c822b5f9[m
+Merge: 31e087f 50bc1b5
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Sep 23 12:07:07 2020 +0200
+
+    Merge pull request #143 from phimuemue/simpl
+    
+    Some simplifications
+
+[33mcommit 50bc1b5e903377272a7277cefcc599b0a76e5d04[m
+Author: philipp <descpl@yahoo.de>
+Date:   Sun Sep 20 16:23:02 2020 +0200
+
+    Delegate into_client_request (4)
+
+[33mcommit 064fd9313f16b5f1195d4d22ad2520e54c73c372[m
+Author: philipp <descpl@yahoo.de>
+Date:   Sun Sep 20 16:23:02 2020 +0200
+
+    Delegate into_client_request (3)
+
+[33mcommit 90345c994a25d9b181e9aca7dacad0ad311ff999[m
+Author: philipp <descpl@yahoo.de>
+Date:   Sun Sep 20 16:23:02 2020 +0200
+
+    Delegate into_client_request (2)
+
+[33mcommit 4cdc2edab1eb6ed551a762e8aea63ff3e868ecfd[m
+Author: philipp <descpl@yahoo.de>
+Date:   Sun Sep 20 16:23:02 2020 +0200
+
+    Delegate into_client_request
+
+[33mcommit 599b677f5a88094f3eb242f0327790ecd09a824c[m
+Author: philipp <descpl@yahoo.de>
+Date:   Sun Sep 20 11:59:01 2020 +0200
+
+    Avoid temporary variable `fin`
+
+[33mcommit 31e087f32550d7657394ebad84b870c686d16ead[m
+Merge: 006cec7 bcf2b22
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sun Sep 13 15:54:58 2020 +0200
+
+    Merge pull request #140 from Redrield/fix/dedup-reason
+    
+    Deduplicate the reason line in HTTP responses
+
+[33mcommit bcf2b22d9e24f67cfff3796feb0ed9fb5be9323d[m
+Author: Redrield <redrield@gmail.com>
+Date:   Sat Sep 12 22:41:39 2020 -0400
+
+    Deduplicate the reason line in HTTP responses
+    
+    The impl of Display for StatusCode already includes the canonical reason
+    if it exists. The current implementation duplicates this (e.g. the
+    status line will read "101 Switching Protocols Switching Protocols", or
+    "400 Bad Request Bad Request".
+
+[33mcommit 006cec72ea4763041e03996f484a48bae9e7a645[m
+Merge: faea043 65b0837
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Aug 22 22:34:06 2020 +0200
+
+    Merge pull request #135 from RAnders00/enable-dependabot
+    
+    Enable dependabot
+
+[33mcommit 65b083758965229fa2c5bd29b5575d180cebe6b2[m
+Author: Ruben Anders <ruben.anders@robotty.de>
+Date:   Wed Aug 19 17:54:20 2020 +0200
+
+    Enable dependabot
+
+[33mcommit faea043ec24361cbbd23e0549149f7d14d49c39e[m
+Merge: 9d67240 e7bab13
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Aug 17 14:42:29 2020 +0200
+
+    Merge pull request #134 from Zoldszemesostoros/patch-1
+    
+    Make echo server compile
+
+[33mcommit e7bab13e6d8c8c42fed3c8c5fe1abe5ea336b00f[m
+Author: Zoldszemesostoros <42379455+Zoldszemesostoros@users.noreply.github.com>
+Date:   Mon Aug 17 11:47:00 2020 +0200
+
+    make echo server compile
+    
+    The original code failed to compile with "expected item after doc comment" error message
+
+[33mcommit 9d67240cab1de4bb4853d992cd4aed832350ac7e[m[33m ([m[1;33mtag: v0.11.1[m[33m)[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Aug 7 18:40:13 2020 +0200
+
+    cargo: add author
+
+[33mcommit 1de6da9a3cd2fc3ea2ee32e41dcbdf04ee61ad34[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Aug 5 17:39:30 2020 +0200
+
+    Bump version
+
+[33mcommit 939c4d181c2e02fe3a31a789031702149d7f0178[m
+Merge: fd7de42 849f248
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Aug 5 14:28:58 2020 +0200
+
+    Merge pull request #132 from sdroege/sha-1-0.9
+    
+    Update to sha-1 0.9
+
+[33mcommit 849f248a94dc9d0c337257e06edb7e8e4a487748[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Tue Jul 28 09:34:31 2020 +0300
+
+    Update to sha-1 0.9
+
+[33mcommit fd7de42347f6b39428bcdb0e7d6a4bf65ccecedb[m
+Merge: 6791dcc d17f749
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Jun 24 17:41:41 2020 +0200
+
+    Merge pull request #110 from najamelan/doc/mib
+    
+    doc: be precise about max message sizes.
+
+[33mcommit 6791dcc0d6ba13721447e2dde7113031bca0280c[m
+Merge: 744bd87 fb83e8c
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Jun 24 17:41:22 2020 +0200
+
+    Merge pull request #119 from kids300/master
+    
+    Fix ws request subportocol lowercase header
+
+[33mcommit 744bd87a418c85f52051ba86e4121d1a140c4867[m
+Merge: 1a729bb fe4d631
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Jun 24 17:39:18 2020 +0200
+
+    Merge pull request #130 from Krisa/patch-1
+    
+    Allow statically linking
+
+[33mcommit fe4d631c9712c6126f4891c00169534346a188d2[m
+Author: Christophe Vidal <Krisa@users.noreply.github.com>
+Date:   Wed Jun 17 15:43:07 2020 +0200
+
+    Allow statically linking
+    
+    Solving https://github.com/snapview/tungstenite-rs/issues/118 by using `features= ["tls-vendored"]` in the toml file
+
+[33mcommit 1a729bb362a0c740375a854484f03e5e97861142[m[33m ([m[1;33mtag: v0.11.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Jun 12 19:32:20 2020 +0200
+
+    Release version 0.11.0
+
+[33mcommit bbaa48b4d6cbc551232f27f00bdc5cc32df78525[m
+Merge: 3a24ca3 5a95f12
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Sat May 23 22:39:33 2020 +0200
+
+    Merge pull request #126 from Dushistov/fix-deprecation
+    
+    Make tungstenite-rs more safe
+
+[33mcommit 5a95f12c6d07b9bad4369ee1886f54b3eb527810[m
+Author: Evgeniy A. Dushistov <dushistov@mail.ru>
+Date:   Sat May 23 18:57:09 2020 +0300
+
+    refactoring/apply_mask: reduce number of usage of unsafe to 1
+    
+    Plus it should be faster now:
+    
+    apply_mask/fallback/0   time:   [24.282 ns 24.727 ns 25.255 ns]
+    apply_mask/fast/0       time:   [11.921 ns 11.963 ns 12.011 ns]
+    apply_mask/fast_safe/0  time:   [7.9340 ns 7.9807 ns 8.0261 ns]
+    
+    apply_mask/fallback/1   time:   [25.284 ns 25.710 ns 26.124 ns]
+    apply_mask/fast/1       time:   [20.433 ns 20.476 ns 20.511 ns]
+    apply_mask/fast_safe/1  time:   [9.3208 ns 9.3833 ns 9.4470 ns]
+    
+    apply_mask/fallback/2   time:   [16.051 ns 16.160 ns 16.275 ns]
+    apply_mask/fast/2       time:   [20.564 ns 20.569 ns 20.574 ns]
+    apply_mask/fast_safe/2  time:   [9.1449 ns 9.1830 ns 9.2189 ns]
+    
+    apply_mask/fallback/3   time:   [15.386 ns 15.548 ns 15.715 ns]
+    apply_mask/fast/3       time:   [18.836 ns 18.867 ns 18.917 ns]
+    apply_mask/fast_safe/3  time:   [8.3092 ns 8.3566 ns 8.4076 ns]
+
+[33mcommit 9764ac13a1f3e0bf548135b5f7995beb02b24c92[m
+Author: Evgeniy A. Dushistov <dushistov@mail.ru>
+Date:   Sat May 23 18:53:22 2020 +0300
+
+    infra/apply_mask: test more case for apply_mask
+    
+    make sure that input with len 0,1,2,3 also tested
+
+[33mcommit 3a24ca3f034e0ba310f3ea25574d0543f229851d[m
+Merge: 3667003 de80b9b
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 22 10:29:18 2020 +0200
+
+    Merge pull request #125 from Dushistov/fix-from-for-close-code
+    
+    Change Into to From for CloseCode to u16 conversation
+
+[33mcommit de80b9bced480d407665e46001fc2d7a6874d71e[m
+Author: Evgeniy A. Dushistov <dushistov@mail.ru>
+Date:   Fri May 22 01:31:08 2020 +0300
+
+    Change Into to From for CloseCode to u16 conversation
+    
+    As stated in standard library documentation:
+    > One should always prefer implementing From over Into because implementing From automatically
+    > provides one with an implementation of Into thanks to the blanket implementation in the standard library.
+    
+    And this provides the way to use u16::from(close_code)
+
+[33mcommit fb83e8c79128a6ecd38b2223961a4d4f167a9618[m
+Author: kids300 <guitarhandbook@protonmail.com>
+Date:   Fri May 8 16:26:45 2020 +0800
+
+    rm to_string
+
+[33mcommit 16a33df195a04c3362f983c2b2d7d8d0b6c34788[m
+Author: Yan <phycept@pm.me>
+Date:   Fri May 8 15:58:55 2020 +0800
+
+    fix ws subportocol lowercase header
+
+[33mcommit 366700342b3224df9cded703c30c7309c771f0d0[m
+Merge: 1ef18d5 1f744f1
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri May 1 23:18:11 2020 +0200
+
+    Merge pull request #116 from mpdn/patch-1
+    
+    Make mask public on FrameHeader
+
+[33mcommit 1f744f15481d4d7a8f6fcea80c137fb3f235ed61[m
+Author: Mike Pedersen <mike@mikepedersen.dk>
+Date:   Sat Apr 25 09:58:51 2020 +0200
+
+    Make mask public on FrameHeader
+    
+    Without the ability to get the mask, having the `FrameHeader` struct as a public type along with functions like `parse` is somewhat useless. I can't see any reason why it shouldn't be public.
+
+[33mcommit 1ef18d54add8f77db7c65260dc0f0ba7dadf5452[m
+Merge: 0c429cb 4ef8aa9
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Apr 20 11:47:25 2020 +0200
+
+    Merge pull request #115 from rijenkii/patch-1
+    
+    Update base64 dependency to 0.12.0
+
+[33mcommit 4ef8aa981d4a636e68f26b50f1f1156b2ebdbc7b[m
+Author: Rijenkii <5338332+rijenkii@users.noreply.github.com>
+Date:   Mon Apr 20 12:43:12 2020 +0700
+
+    Update base64 dependency to 0.12.0
+
+[33mcommit 0c429cba9485e8f5efe9e51a8c088fcade93f35c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Sat Mar 28 20:03:30 2020 +0100
+
+    chore: remove deprecated `description()`
+    
+    Fixes #111
+
+[33mcommit 431b6d9241416ccabd31db53b9ef831d6eaaaf91[m
+Merge: 1773269 9c48226
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Mar 27 13:03:54 2020 +0100
+
+    Merge pull request #112 from najamelan/feature/get_config
+    
+    Feature/get config
+
+[33mcommit 9c48226c8f24bee5edfb2d38199cb808a94d939d[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Sat Mar 21 17:14:45 2020 +0100
+
+    chore: Remove needless closing/opening of the impl block on WebSocketContext.
+
+[33mcommit 1f407f10057a2fbe7948fe7f16f14f13cf5ef76e[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Sat Mar 21 17:13:57 2020 +0100
+
+    feat: Allow reading the configuration.
+    
+    This allows wrapper types to correctly split data before creating websocket
+    messages, guaranteeing to respect the max size.
+    
+    Notably when the WebSocket is provided by user code.
+
+[33mcommit d17f749914a7ffd83e2b638bcf7069bbc573d9f3[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Sat Mar 21 16:46:51 2020 +0100
+
+    doc: be precise about max message sizes.
+    
+    If preferred to avoid abbreviations, it could be called mebibytes.
+
+[33mcommit 17732694d49715d39e101773e0ad405b4e8cb029[m[33m ([m[1;33mtag: v0.10.1[m[33m)[m
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Sun Feb 2 21:29:46 2020 +0100
+
+    trivial: bump version
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@gmail.com>
+
+[33mcommit faf4b598a06b573939c059e0dbe85c731c025e4d[m
+Merge: 6b34232 0bfc217
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Sun Feb 2 03:35:38 2020 +0100
+
+    Merge pull request #106 from macpp/firefox-connection
+    
+    Allow firefox to connect
+
+[33mcommit 0bfc217cfcf10f0d675cc220431d5c674778ee82[m
+Author: macpp <mac.map.void@gmail.com>
+Date:   Sat Feb 1 22:52:41 2020 +0100
+
+    allow firefox to connect
+
+[33mcommit 6b3423292f58b7f1295877017877db8a10606ff4[m[33m ([m[1;33mtag: v0.10.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Jan 31 03:08:06 2020 +0100
+
+    trivial: fix clippy warning
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 61f46be6441263e357346ace67bd2be8346a8de9[m
+Merge: 010266e 85f2112
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sat Jan 18 21:24:48 2020 +0100
+
+    Merge pull request #105 from snapview/can-read-write
+    
+    websocket: add `can_read()` and `can_write()`
+
+[33mcommit 85f211230a06bbb74120f98f9b7df4e149a839e7[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Jan 17 21:23:38 2020 +0100
+
+    websocket: add `can_read()` and `can_write()`
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 010266e001608b57cbb3bd58e39f42f251f7e3f4[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jan 13 22:22:42 2020 +0100
+
+    test: autobahn: add strict error reporting
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit da3acc107e9e4c4728cff55745407d8af8052881[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jan 13 21:47:50 2020 +0100
+
+    protocol: handle "Connection reset by peer" in closing state
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 615bf7174832953ff8d7b9a08ae6c7fab60844ed[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jan 13 19:09:26 2020 +0100
+
+    test: check close with SO_LINGER
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 0eecc28cc75e1511eb2c7e8ca19e49deff9a08e4[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jan 8 22:42:51 2020 +0100
+
+    travis: force build fail on autobahn failure
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit c08f2c72ffc0485d208f353e69dda999e94a8953[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jan 8 13:42:16 2020 +0100
+
+    client: correct port in request
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 9ec11cbc7aff4b5971ea0d79a635725af013937f[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jan 8 13:26:40 2020 +0100
+
+    client: cover request generation with tests
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 6d8358cd19dff812ae7e2144407ba9033f9012b9[m
+Merge: 1da9614 c3aff4a
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Dec 10 16:12:52 2019 +0100
+
+    Merge pull request #98 from sdroege/http-0.2
+    
+    Update to http 0.2
+
+[33mcommit c3aff4ae9e9e89e0fb87ce3f0dcadebcd7ba4f85[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Tue Dec 3 10:01:18 2019 +0200
+
+    Update to bytes 0.5 and input_buffer 0.3
+
+[33mcommit c2f713b6bb424bdc2168c35785e93fcb5f50f3dd[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Tue Dec 3 09:48:49 2019 +0200
+
+    Update to http 0.2
+
+[33mcommit 1da9614ab2734a8be4f0c6d7d4c3b9889a7166a5[m
+Merge: 345d262 7ca9bd6
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Sat Nov 30 15:26:04 2019 +0100
+
+    Merge pull request #97 from alfiedotwtf/master
+    
+    Minor grammar fix
+
+[33mcommit 7ca9bd6f2fa69f618fa32dc787bfb028a2ef50f5[m
+Author: Alfie John <alfie@alfie.wtf>
+Date:   Sun Dec 1 01:13:54 2019 +1100
+
+    Minor grammar fix
+
+[33mcommit 345d2629723b6e0ee203effa71f3faaa38e6a957[m
+Merge: bb80143 e1a5153
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Nov 25 18:03:18 2019 +0100
+
+    Merge pull request #93 from sdroege/http-types
+    
+    Base HTTP-types (request, headers, response, status code, etc) on the ones from the http crate
+
+[33mcommit e1a5153f405051aeed01acac301400306fbba812[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sun Nov 24 18:17:13 2019 +0100
+
+    Bump version to 0.10.0 because of API changes
+
+[33mcommit 88760b8b5912dd4beca329c3acdff9a32bcdf1d3[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sun Nov 24 15:20:19 2019 +0100
+
+    Fix various clippy warnings
+
+[33mcommit 7a4779b6f6e106f79125e38c4095749775fbf234[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sun Nov 24 15:06:55 2019 +0100
+
+    Run everything through rustfmt
+
+[33mcommit f659af44939042eb0514838f77c73de3500741ed[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sun Nov 24 15:06:41 2019 +0100
+
+    Update examples to compile again
+
+[33mcommit 07d4721ffd992808e114572256a5de8f968ccade[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sun Nov 24 14:52:58 2019 +0100
+
+    Add type aliases for Response/Request with a fixed body type
+    
+    Simplifies correct usage of the API.
+
+[33mcommit 1ecc4f900d8abb7f5791152bd41c9d0c7fdde9a2[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sun Nov 24 15:33:18 2019 +0200
+
+    Use Response for the server handshake callback too
+    
+    And add a public create_response(&Request) function that creates an
+    initial response. This can be used to simplify integration into existing
+    HTTP libraries.
+
+[33mcommit 09a9b7ceef30e9b7c4624c04b3f3cfb320440ad6[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Sat Nov 23 13:17:51 2019 +0200
+
+    Remove custom Request/Response types from server code
+    
+    Fixes https://github.com/snapview/tungstenite-rs/issues/92
+
+[33mcommit 9020840f84b03498720b6a365cfb38907c86d17a[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Fri Nov 22 15:59:27 2019 +0200
+
+    Remove custom Request/Response types from client code
+    
+    Fixes https://github.com/snapview/tungstenite-rs/issues/92
+
+[33mcommit 38a7d1a3753820b0057c8f71f559fd5c8e2317d2[m
+Author: Sebastian Dröge <sebastian@centricular.com>
+Date:   Thu Nov 21 19:10:47 2019 +0200
+
+    Remove custom Headers type and use http::HeaderMap instead
+    
+    Fixes https://github.com/snapview/tungstenite-rs/issues/92
+
+[33mcommit bb801430c8810814e680e140312ec1544eaa87f1[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Nov 15 19:21:18 2019 +0100
+
+    Bump version
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 4e8d6058d4319026a5369685294d00b6b4497a81[m[33m ([m[1;33mtag: v0.9.2[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Nov 15 19:19:17 2019 +0100
+
+    Version 0.9.2 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit af1fe25efa801cf3a50aa3eef01c4d169e4750b3[m
+Merge: f7e9cb0 5f3f4c0
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Nov 6 17:59:31 2019 +0100
+
+    Merge pull request #88 from dbrgn/fix-typo
+    
+    Fix typo in docs
+
+[33mcommit 5f3f4c016e556f925b54485a58383eca2f174faa[m
+Author: Danilo Bargen <mail@dbrgn.ch>
+Date:   Wed Nov 6 16:47:31 2019 +0100
+
+    Fix typo in docs
+
+[33mcommit f7e9cb097e063f4bfe916f43aa71e9e7544f53d1[m
+Merge: 0cf2a77 4cb27d0
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Sun Oct 27 22:20:40 2019 +0100
+
+    Merge pull request #87 from KevinWMatthews/readme_fix
+    
+    Fix typo in README.md example
+
+[33mcommit 4cb27d08e4f2beae051717a0ae56e32d10a76df9[m
+Author: Kevin W Matthews <KevinWMatthews@gmail.com>
+Date:   Sun Oct 27 09:59:50 2019 -0700
+
+    Fix typo in README.md example
+
+[33mcommit 0cf2a777df7291fd07d9cebf4a9359bbeb8428dc[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Oct 24 15:28:15 2019 +0200
+
+    Bump version
+
+[33mcommit c291395d3b7402685e349b43b464dc177aaaaaeb[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Oct 24 15:27:44 2019 +0200
+
+    Fixes #86
+
+[33mcommit 2903a02ef5a1ca09141094c647fe751581a222f4[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Oct 8 02:47:40 2019 +0200
+
+    frame: correct possible infinite loop on sending
+    
+    Closes: #83
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 9e4244aecfa08bd79ca652d6d394952612bd5ea1[m
+Merge: dd60245 17fe798
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Sep 25 11:35:56 2019 +0200
+
+    Merge pull request #81 from najamelan/cleanup/use_can_read
+    
+    Make use of can_read to clean up some code
+
+[33mcommit 17fe7987eb494575f56c27554b7e80f4b70f45d2[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Sun Sep 15 03:26:46 2019 +0200
+
+    Make use of can_read
+
+[33mcommit dd602455c4821b963a9cfc077d07cf9062168d78[m
+Merge: 0da592a b807f76
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Sep 20 12:54:26 2019 +0200
+
+    Merge pull request #79 from najamelan/docs/close
+    
+    WIP: Add some documentation to WebSocket and Error.
+
+[33mcommit b807f76ed17eb31440b697f0998ca00fac0ecc87[m
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Sep 20 12:52:08 2019 +0200
+
+    Update error description
+    
+    Remove the statement which is not valid anymore.
+
+[33mcommit 0da592a9d4bb969a8e694fbc1a0a779867a4d781[m
+Merge: da323e6 1ee3f34
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Sep 20 12:48:59 2019 +0200
+
+    Merge pull request #74 from najamelan/bugfix/no_send_after_close
+    
+    Do not allow sending messages after sending a close frame
+
+[33mcommit 1ee3f342aa505a4f97159b436831c995b6876ec1[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 18:28:48 2019 +0200
+
+    Consider remote sending a frame after sending a close frame a protocol error.
+    
+    The websocket RFC explicitly states this is not allowed.
+
+[33mcommit 2918eec1b35ad0ceba42bc7414ad0a00113ec36b[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 02:53:02 2019 +0200
+
+    No longer accept to send after close
+
+[33mcommit 2004309814f705cd314e00cdb3ae9a129623fb04[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 02:51:42 2019 +0200
+
+    integration test for no_send_after_close
+
+[33mcommit da323e6307bd2b91d19cf70640e3ad2676c8176a[m
+Merge: 2b2e663 9379ebe
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Sep 19 16:21:23 2019 +0200
+
+    Merge pull request #75 from najamelan/bugfix/return_pong_after_initiate_close
+    
+    Don't swallow ping/pong while waiting for close acknowledgement
+
+[33mcommit 2b2e66326453709d3b3df50c1a18e7be96f2221f[m
+Merge: fc41b59 6369d48
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Sep 19 16:20:07 2019 +0200
+
+    Merge pull request #73 from dbcfd/expose-machine
+    
+    Tokio-Tungstenite Async Changes
+
+[33mcommit 6369d48579bdf3085cb61939e063cd81ed3881b5[m
+Author: Danny Browning <bdbrowning2@gmail.com>
+Date:   Mon Sep 16 06:38:54 2019 -0600
+
+    Fix compilation error without default features
+
+[33mcommit f818322a25b38ba6d4e2b1bcc8b20e1a530486c7[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Sat Sep 14 16:30:42 2019 +0200
+
+    Add some documentation to WebSocket and Error.
+
+[33mcommit 9379ebe47deb8bdb3e7042cf0268588b8358261f[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 22:16:45 2019 +0200
+
+    Don't swallow ping/pong while waiting for close acknowledgement
+
+[33mcommit 02684b4946c0dda51b03fc20adc63190c19d8ebe[m
+Author: Danny Browning <bdbrowning2@gmail.com>
+Date:   Thu Sep 12 12:58:42 2019 -0600
+
+    Try removing unpin
+
+[33mcommit fc41b598ce8889445a1d89c5ef1d27c4ccc8e28a[m
+Merge: c6c3db3 bf63a71
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Thu Sep 12 16:51:23 2019 +0200
+
+    Merge pull request #72 from najamelan/bugfix/receive_after_close
+    
+    Keep processing incoming data even after we have initiated a close handshake.
+
+[33mcommit bf63a71cd14b24dad532380f526a10e5f6aeece3[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 16:37:23 2019 +0200
+
+    cleanup unnecessary dereference
+
+[33mcommit 614a5068fa4cd73a162c457985666a7ba77e0335[m
+Author: Danny Browning <bdbrowning2@gmail.com>
+Date:   Tue Sep 10 09:42:30 2019 -0600
+
+    Tokio-Tungstenite Async Changes
+    
+    Changes required for tokio-tungstenite async implementation.
+
+[33mcommit 2e72b562ceac3ce3338af536cd280cdf9c1aff85[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 02:55:20 2019 +0200
+
+    Improve error reporting from tests
+
+[33mcommit 28579b567a0393385ec6171cb152f7fa2e5d20ab[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 02:55:07 2019 +0200
+
+    Improve WebSocketState interface with Copy, PartialEq, ...
+
+[33mcommit b923ec42c0e74b9fbf08d5fe6c045d5ae7047366[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 00:56:58 2019 +0200
+
+    Keep processing incoming data even after we have initiated a close handshake.
+
+[33mcommit a3625fbaa95f3a784e9defbb49b0b907620ef15d[m
+Author: Naja Melan <najamelan@autistici.org>
+Date:   Thu Sep 12 01:12:42 2019 +0200
+
+    integration test verifying that we can read messages after initiating close handshake.
+
+[33mcommit c6c3db34cc12c0154aaa314843e81ccae8828fa9[m
+Merge: b40256e cbf80ec
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Sep 3 22:31:42 2019 +0200
+
+    Merge pull request #67 from vorot93/rust-2018
+    
+    Edition 2018, formatting, clippy fixes
+
+[33mcommit cbf80ecc761f4990e39ac4b6066601e40fc9c131[m
+Author: Artem Vorotnikov <artem@vorotnikov.me>
+Date:   Mon Aug 26 20:00:41 2019 +0300
+
+    Edition 2018, formatting, clippy fixes
+
+[33mcommit b40256eedd10fdc06f6f600fa83b8c0d4e390153[m[33m ([m[1;33mtag: v0.9.1[m[33m)[m
+Merge: c7e1cf1 e2bec4b
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Aug 7 20:46:40 2019 +0200
+
+    Merge pull request #66 from snapview/fix-close
+    
+    Fix error `ConnectionClosed` never returned to server when server initiated close
+
+[33mcommit e2bec4b81f94ae4bb888ec3f6fc1c1084812d954[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Aug 7 20:03:52 2019 +0200
+
+    Change the way we return `Err::ConnectionClosed`
+    
+    This way will ensure that we only return this error once. The previous
+    solution fixed the problem, but it did not guarantee that ""connection
+    closed" is returned only once.
+
+[33mcommit 03b43bd074e34b741c3b2db88b06b77e0dbf4695[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Aug 7 19:34:02 2019 +0200
+
+    Update the link to docs
+
+[33mcommit fa1f4a5ee2d1c06acf4c249832d2a171ef47765c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Aug 7 18:57:08 2019 +0200
+
+    Bump version
+
+[33mcommit dbc8bd7b71f103191b158953ae8d0a4ebcbc314f[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Aug 7 18:56:40 2019 +0200
+
+    Fix issue with hanging server connection
+
+[33mcommit c7e1cf1f26b6229bfb3d88e66307efeca462ad6b[m[33m ([m[1;33mtag: v0.9.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Aug 6 17:55:39 2019 +0200
+
+    Version 0.9.0 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 4b29243ff69baa370a7752cee27f896b0777526a[m
+Merge: 78cea49 7581706
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 29 23:54:15 2019 +0200
+
+    Merge pull request #64 from atouchet/links
+    
+    Update links
+
+[33mcommit 7581706c904bfa90db529a5945a56c9f6fbf652a[m
+Author: Alex Touchet <alextouchet@outlook.com>
+Date:   Mon Jul 29 11:46:18 2019 -0700
+
+    Update links
+
+[33mcommit 78cea4992b17899bef31a36bab48e9db0bf4e74a[m
+Merge: 46629f7 4b1d89d
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 24 17:41:15 2019 +0200
+
+    Merge pull request #63 from SimonSapin/url
+    
+    Update the url crate to 2.0
+
+[33mcommit 4b1d89daf115d098e45fb69af7db4f3c5679157c[m
+Author: Simon Sapin <simon.sapin@exyr.org>
+Date:   Wed Jul 24 16:46:58 2019 +0200
+
+    Update the url crate to 2.0
+
+[33mcommit 46629f7ed45b1e46e378b34fb05a2050739b955e[m[33m ([m[1;33mtag: v0.8.1[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 17 01:59:01 2019 +0200
+
+    Version 0.8.1 released
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 4443e910ac1f5c7cf52e1b75c99e0aef50827f7c[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 17 01:51:11 2019 +0200
+
+    test: autobahn: correct configuration
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 758c522b31fed92019fcecf6ba43c12a40723de4[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 17 01:30:41 2019 +0200
+
+    travis: add automated autobahn tests
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 06308b1b3fa6bc3f89fdc14aa3b2e92429a9a226[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 17 00:36:45 2019 +0200
+
+    close: fix autobahn regression
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit dd300f8bd71a45674bdd4ffd293565496b3854b0[m[33m ([m[1;33mtag: v0.8.0[m[33m)[m
+Merge: de90c38 3fb3592
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 14 19:34:20 2019 +0200
+
+    Merge pull request #60 from snapview/close-fixes
+    
+    Fixes for the "close-is-a-message" semantics.
+
+[33mcommit 3fb359224ed5229dc1cf40d967dde7c1a1ed0778[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 14 10:16:27 2019 +0200
+
+    Bump version
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit f4769a950cfbaac231e04a60d68683e28c4f6b0c[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 14 02:10:51 2019 +0200
+
+    example: trivial: init logger in server example
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 8cc65fdddcf90ac7614a8e30af1f535c258a54d3[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 14 01:57:12 2019 +0200
+
+    fuzz: make it working again
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit b8f7d3668ec79c62abb9562ee3b5dd355908b6a5[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 14 01:12:53 2019 +0200
+
+    close: refine close semantics
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit de90c3877da08422211dea1858fec847ff0b191f[m[33m ([m[1;33mtag: v0.7.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 7 02:03:16 2019 +0200
+
+    Version 0.7.0 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit efb49edac04b21fb388755521a5339f01ad89217[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 7 02:02:40 2019 +0200
+
+    trivial: update env_logger dependency
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 9bab9defdede54ef1329321886e37d4ea2dfae72[m
+Merge: 8ed73fd 6f13220
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon May 6 15:17:24 2019 +0200
+
+    Merge pull request #59 from snapview/callback-error
+    
+    server: let callback return HTTP error messages
+
+[33mcommit 6f132208ee5c8276b03d499f182318569bd2d56f[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Sat May 4 02:15:43 2019 +0200
+
+    server: let callback return HTTP error messages
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 8ed73fd28a34e9b6f5985f91cdc0d0bd89138156[m
+Merge: 62e3aff 828eafd
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri Mar 29 12:22:36 2019 +0100
+
+    Merge pull request #58 from ubnt-intrepid/websocket-context
+    
+    extract the context values from `WebSocket`
+
+[33mcommit 828eafd400014fcc3c5c85c57e524867ef49b9d3[m
+Author: Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>
+Date:   Sat Mar 23 22:26:48 2019 +0900
+
+    extract the context values from `WebSocket`
+
+[33mcommit 62e3aff69acadd6307c3b4b61af5232bb69c3f42[m
+Merge: c33f4f3 a8023f4
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Thu Feb 7 17:30:34 2019 +0100
+
+    Merge pull request #56 from snapview/close-as-message
+    
+    Make `Close` part of the `Message` enum
+
+[33mcommit a8023f4b2d96361836448eafd002d3aab1311875[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Feb 7 15:11:11 2019 +0100
+
+    Bump version
+
+[33mcommit c8c3d6290d97e14916c2882410d50b77787075fe[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Feb 7 13:38:54 2019 +0100
+
+    Make `Close` part of the `Message` enum
+
+[33mcommit c33f4f3895ccedf1f370b8b675bf980257f6c3f4[m
+Merge: 3ce4c01 e03903e
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Jan 14 14:49:25 2019 +0100
+
+    Merge pull request #53 from resilar/patch-1
+    
+    Upgrade rand 0.5.2 -> 0.6.4
+
+[33mcommit e03903ed29003a32e3ceca9bcfee1d732bf57d8f[m
+Author: resilar <def@huumeet.info>
+Date:   Mon Jan 14 05:02:11 2019 +0200
+
+    Upgrade rand 0.5.2 -> 0.6.4
+
+[33mcommit 3ce4c01b9222ca8d017083bf68a62d6e2336572c[m[33m ([m[1;33mtag: v0.6.1[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Nov 2 23:05:00 2018 +0100
+
+    Version 0.6.1 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 4c8d64de12f79941b4121ed147dbca256faa5758[m
+Merge: 4ee884a da85989
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Wed Sep 5 23:23:50 2018 +0200
+
+    Merge pull request #48 from emschwartz/master
+    
+    feat: impl Into<Vec<u8>> for Message
+
+[33mcommit da85989934be3f5d992f4db5dd5d608091c1b005[m
+Author: Evan Schwartz <evan.mark.schwartz@gmail.com>
+Date:   Wed Sep 5 16:49:02 2018 -0400
+
+    feat: impl Into<Vec<u8>> for Message
+
+[33mcommit 4ee884a1e8b6abdf793321407b5288ec81c4db9f[m
+Merge: 3ac854f 9f2d9d5
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Tue Jul 24 21:54:32 2018 +0200
+
+    Merge pull request #44 from Shnatsel/master
+    
+    Add fuzzing harness and seeds
+
+[33mcommit 3ac854f850810811fc95fbac62afb6f3e92e36bb[m[33m ([m[1;33mtag: v0.6.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 18 15:35:24 2018 +0200
+
+    Version 0.6.0 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 59f8d9c40271d0bf5779c935169b4164d82d9ae2[m
+Merge: e4a52cd a7e8748
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Wed Jul 18 15:14:44 2018 +0200
+
+    Merge pull request #43 from snapview/devel
+    
+    Limiting and config improvements
+
+[33mcommit 9f2d9d566082bc8ef8168f5913045d9f9fce8bbd[m
+Author: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Date:   Tue Jul 17 01:35:44 2018 +0300
+
+    Add fuzzing seeds. They were obtained via fuzzing with `cargo afl` and `cargo fuzz` seeded with unit test data for these functions, and then minifying the result with `cargo fuzz cmin`
+
+[33mcommit 465ba41116e701d59abb8796511bd848bfd37a91[m
+Author: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
+Date:   Tue Jul 17 01:32:45 2018 +0300
+
+    Add fuzzing harness via cargo-fuzz with three distinct targets
+
+[33mcommit a7e87488c4d0fe86baa87dac5a4d775ca7b2a315[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 16 15:57:22 2018 +0200
+
+    config: make config settable at runtime
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 9b0a2e0f114524f5f9af484d2b21da1325cbd255[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 16 14:57:14 2018 +0200
+
+    trivial: split public and private impl
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit a2e122ab9e315da24a1d49d3988d12ec84503d85[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 11 19:04:02 2018 +0200
+
+    refactor: mask: pass mask by value
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit e6ebf5ac76523c6df31285eb6c7adae8718c3063[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 11 18:36:31 2018 +0200
+
+    trivial: style fixes
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit d2e3602170a6e40b1bc0370b6a9b042420894ca1[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 11 18:29:20 2018 +0200
+
+    frame: fix partial write
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 3772aaf163e613def22e900f6fd8d0e1ba268363[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 11 02:04:57 2018 +0200
+
+    chore: introduce frame size limit
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 50d1371e52ed2883b606ac80b32c0758665bdb5b[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Jul 11 00:42:58 2018 +0200
+
+    frame: cleanup frame API
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 75aa0d54f38a9294baaa12bdbb0a350c62b9dd44[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jul 10 18:13:17 2018 +0200
+
+    refactor: parse header separately from payload
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 20242d19f73a366c4bda7d1e1153ca1e1ddabf9b[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 9 17:00:42 2018 +0200
+
+    config: protocol: add message size limiting
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit a4f885f69f2797d5d09b322592e70605d0185be3[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jul 3 20:21:22 2018 +0200
+
+    protocol: improve write responsibility
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit e4a52cde055e848bde3d645bd7fe7b9beef22679[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jul 10 18:28:03 2018 +0200
+
+    mask: update for actual Rust version
+    
+    Closes #35
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit cb671e1abccc5d11f66dc3383378a9148844bcdc[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jul 3 20:19:56 2018 +0200
+
+    trivial: improve documentation
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 59d7012702e4f72f9cdf3e016d69e81a3200e734[m
+Merge: 3e02fe5 4cfe9a2
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Tue Jul 10 18:06:18 2018 +0200
+
+    Merge pull request #37 from bluetech/ununsafe
+    
+    frame: eliminate an unsafe when reading message data into the buffer
+
+[33mcommit 4cfe9a2be123e5f4377da56f44204b9d99730a6d[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Tue Jul 10 17:51:31 2018 +0300
+
+    frame: eliminate an unsafe when reading message data into the buffer
+    
+    The reason for the unsafe was presumably to avoid copying or
+    zero-initializing. This achieves the same but using only safe functions.
+    
+    Note: there is no zero-initializing here because Cursor is "trusted" to
+    not read from the buffer and so skips the initialization:
+    https://github.com/rust-lang/rust/blob/master/src/libstd/io/cursor.rs#L241
+    (the Take wrapper delegates to its inner).
+
+[33mcommit 3e02fe53516adca6617c0b6df32a5b09ba264729[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 2 19:17:26 2018 +0200
+
+    trivial: use released input_buffer version
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit fdb1a0ed50632e0bf5f33ce3f4afc85692e0e793[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 2 19:05:54 2018 +0200
+
+    frame: reject bad opcodes early
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 9bd65feaeb6b7dc301c76079a9bbf4850912ee54[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 2 18:11:00 2018 +0200
+
+    frame: reject frames that are too big for the RAM
+    
+    Fixes #34.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 977c6e7c7ada31937024ddad449c03b38b8ae470[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 2 16:29:24 2018 +0200
+
+    refactor: remove transmute in favor of safe code
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit c0cde68999bc6c0f979876145952d23d83cbdd19[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jul 2 16:00:23 2018 +0200
+
+    frame: fix integer overflow
+    
+    This is a security fix.
+    Fixes #33.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit b93abcf9003c733e5b2933a551020d17190f30ea[m
+Merge: e1e0acd 3a58069
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Tue Jun 26 11:35:34 2018 +0200
+
+    Merge pull request #27 from snapview/websocket-config
+    
+    Allow the configuration of `WebSocket`
+
+[33mcommit 3a58069db2848a9946d9ee0c60d876ec2e4f8110[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Jun 26 11:12:57 2018 +0200
+
+    Create helpers for config-like functions
+    
+    As suggested by @agalakhov
+
+[33mcommit e1e0acd64d323266f47b4bf1e93845a71d39e4b4[m
+Merge: 1c57f0f fbdd412
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Jun 26 10:57:56 2018 +0200
+
+    Merge pull request #30 from mehcode/feature/sha1-to-sha-1
+    
+    Switch from sha1 to sha-1
+
+[33mcommit fbdd412ff8645481b5959602db61e09b1ae0656b[m
+Merge: 51e7ba3 1c57f0f
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Jun 26 10:45:23 2018 +0200
+
+    Merge branch 'master' into feature/sha1-to-sha-1
+
+[33mcommit 1c57f0f268dcd59df1270318f2c98810f4636f04[m
+Merge: 82f5a2e 93907bd
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Jun 26 10:42:58 2018 +0200
+
+    Merge pull request #31 from mehcode/feature/upgrade
+    
+    Upgrade dependency versions
+
+[33mcommit 82f5a2e22b98b62e775f8416a1be286d0d1f6eed[m
+Merge: fb346ad a496cc7
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Tue Jun 26 09:39:06 2018 +0200
+
+    Merge pull request #29 from mehcode/feature/up-native-tls
+    
+    Upgrade native-tls 0.1 -> 0.2
+
+[33mcommit 93907bd70c0c7944a7539cee69060c37b25fccb4[m
+Author: Ryan Leckey <leckey.ryan@gmail.com>
+Date:   Mon Jun 25 22:16:22 2018 -0700
+
+    Upgrade dependency versions
+
+[33mcommit 51e7ba3f39fdbdc221f6ef494c301b118c7e9120[m
+Author: Ryan Leckey <leckey.ryan@gmail.com>
+Date:   Mon Jun 25 22:13:45 2018 -0700
+
+    Switch from sha1 to sha-1
+
+[33mcommit a496cc7e5fbfe46dd1e66fba8e582605e7eaa3cf[m
+Author: Ryan Leckey <leckey.ryan@gmail.com>
+Date:   Mon Jun 25 22:11:01 2018 -0700
+
+    Upgrade native-tls 0.1 -> 0.2
+
+[33mcommit fb346ad7502c8b088187ce7883c6b16bac342abe[m
+Merge: 1f037ab ef8e41f
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Tue Jun 19 20:24:09 2018 +0200
+
+    Merge pull request #28 from mehcode/master
+    
+    prepare for native-tls 0.2
+
+[33mcommit ef8e41f63ff65773dda4868146d67d48661af6c4[m
+Author: Ryan Leckey <leckey.ryan@gmail.com>
+Date:   Tue Jun 19 11:10:08 2018 -0700
+
+    prepare for native-tls 0.2
+
+[33mcommit 715f9b02411f7870135aecce0260070bf774cb5c[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri May 25 10:41:42 2018 +0200
+
+    Bump version
+
+[33mcommit 00303fa60c7a63c975bb2a5af02c5bcad8d4417a[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri May 25 10:41:16 2018 +0200
+
+    Make the websocket configurable
+
+[33mcommit 1f037abc34230b0ac2bebe75f434e824ed68eca0[m
+Merge: 5d5ea88 5742c82
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Fri May 25 09:28:57 2018 +0200
+
+    Merge pull request #26 from tedsta/master
+    
+    `WebSocket::write_message` only buffers one message at a time to apply back-pressure
+
+[33mcommit 5742c822ee14668b7948c4cc8b725042451ab821[m
+Author: Teddy DeRego <tedsta@voxa.co>
+Date:   Fri Mar 23 17:40:08 2018 -0700
+
+    WebSocket::write_message will no longer buffer unlimited messages - it will only buffer a configurable number of outbound messages. Needed for snapview/tokio-tungstenite#35.
+
+[33mcommit 5d5ea88b12b2f14ee4b4a94a07f4f55ebf21bb6f[m
+Merge: 2d83950 66d2c15
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Tue Mar 13 12:18:40 2018 +0100
+
+    Merge pull request #25 from unv-annihilator/master
+    
+    Derive Debugs
+
+[33mcommit 66d2c15f2daa333f11e06aadecb6c78d4adda19a[m
+Author: Sean Schwartz <unv-annihilator@users.noreply.github.com>
+Date:   Sun Jan 21 10:36:48 2018 -0600
+
+    Derive Debugs
+    
+    Deny missing debug and resolve resulting errors to satisfy:
+    https://rust-lang-nursery.github.io/api-guidelines/debuggability.html#all-public-types-implement-debug-c-debug
+    
+    Requires updated input_buffer pushed to crates.io:
+     - Resolved build errors by using github version of code until new version available on crates.io
+    
+    Upgrade env_logger dev-dependency to v0.5.3
+     - Removed unwrap call from env_logger::init()  as it is no longer needed.
+
+[33mcommit 2d8395031bb813774e13221a951ded4921acffcc[m[33m ([m[1;33mtag: v0.5.3[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jan 15 11:01:40 2018 +0100
+
+    Update dependencies and bump version.
+    
+    Version 0.5.3 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 7dc2be7eabfc3f432dad5ac9b39bbaa560e4543f[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Jan 15 11:00:46 2018 +0100
+
+    Update for Rust 1.23
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 4177cfac469696c0e6ddead7c05c838af6f283e1[m[33m ([m[1;33mtag: v0.5.2[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Dec 27 20:17:41 2017 +0100
+
+    trivial: update dependencies
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 6f8c4e70349312ce87c57b7d9515ed14dc5ccb6a[m[33m ([m[1;33mtag: v0.5.1[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Dec 12 00:39:59 2017 +0100
+
+    Use input_buffer as separate crate.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 65a47f95a6174569689c92928aad5bd0b6813fd8[m[33m ([m[1;33mtag: v0.5.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Oct 9 10:36:26 2017 +0200
+
+    Version 0.5.0 released
+
+[33mcommit 3091d1156679eef073fafa35b0b1761f752c6e8d[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Sep 5 21:50:06 2017 +0200
+
+    callback static dispatch
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 3a1e5dfb1f9b89402f26e5d0245edf9f57d3e589[m
+Merge: daa7fc1 82f33c2
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Mon Sep 4 09:45:30 2017 +0200
+
+    Merge pull request #20 from snapview/request_minor
+    
+    Minor improvements in `Request`
+
+[33mcommit 82f33c23aec00ee0b6e3949d2c94d2f744a18a3a[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Sep 1 17:07:52 2017 +0200
+
+    Bump version
+
+[33mcommit c4013ccad3da5d5fd24e3265922c16ebcb612ae8[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Sep 1 17:04:56 2017 +0200
+
+    Improve the `handshake::client::Request` structure
+
+[33mcommit daa7fc1d4564620f70b10f8f1b9696ff421b8b49[m
+Merge: 090a7a6 a307160
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Mon Aug 21 17:40:04 2017 +0200
+
+    Merge pull request #19 from nelsonjchen/patch-1
+    
+    Add use statements to README.md example
+
+[33mcommit a307160e1a4a03e7640747a53f0085cd6dff1bab[m
+Author: Nelson Chen <crazysim@gmail.com>
+Date:   Thu Aug 17 15:12:54 2017 -0700
+
+    Add use statements to README.md example
+    
+    These clarify what comes from `std` and what comes from `tungstenite`.
+
+[33mcommit 090a7a6b2a175e6c3ac6e57048851a746a605c9a[m[33m ([m[1;33mtag: v0.4.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Aug 7 15:29:34 2017 +0200
+
+    Version 0.4.0 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit e7bf80b18943c25741c6da572c109e5b1035827f[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Aug 7 15:27:50 2017 +0200
+
+    Update dependencies
+
+[33mcommit d715eb838b36a569f692b912033255b1a11e44de[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Aug 7 15:16:57 2017 +0200
+
+    trivial: fix documentation version
+
+[33mcommit 13c382ae89315c4ec0e00450457d2e84182ab492[m
+Merge: 147ca9e 41dfc3c
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Mon Aug 7 15:12:36 2017 +0200
+
+    Merge pull request #18 from snapview/headers
+    
+    Add support for altering request/response headers during the websocket handshake
+
+[33mcommit 41dfc3c506afc4d576c4f51f3b60c36ee98bb1d2[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jul 28 15:24:16 2017 +0200
+
+    Add server.rs example to the examples section
+
+[33mcommit e59169989ad17a4b846a316cec436fe435f02a3e[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jun 30 15:22:59 2017 +0200
+
+    Bump version
+
+[33mcommit 5982d4094dd5d19283b1ca700654cc0e9cf6b6c2[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jul 28 14:29:56 2017 +0200
+
+    Update README and examples
+
+[33mcommit 44a15c9eabac16de1fcd3a7cee2ee8c39fe22a6f[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Tue Jul 25 09:47:17 2017 +0200
+
+     Implements #6 (client/server headers access)
+
+[33mcommit f34c4882172f04a5ba1310411413c6dd6fcb1c71[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Fri Jun 30 15:15:24 2017 +0200
+
+    Add basic support for examining headers (#6)
+
+[33mcommit 147ca9e4d3fd8397c6ada372c963c926502b8cd6[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed Jul 26 16:05:24 2017 +0200
+
+    Bump version
+
+[33mcommit 70192100108a758e0677529b11c319150c0ecf19[m
+Merge: 9d6c305 9f6f427
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed Jul 26 16:04:38 2017 +0200
+
+    Merge pull request #17 from alexcrichton/ctl-pong
+    
+    Add `Ping` and `Pong` variants to `Message`
+
+[33mcommit 9f6f42766ecbf3e40b28e317e01ff34c69370633[m
+Author: Alex Crichton <alex@alexcrichton.com>
+Date:   Wed Jul 19 15:04:23 2017 -0700
+
+    Add `Ping` and `Pong` variants to `Message`
+    
+    This'll allow removal/deprecation of the `send_ping` custom method but also
+    allow applications to react to `Pong` messages as appropriate.
+    
+    Closes #16
+
+[33mcommit 9d6c3058d5dadbf3be86b8cb16d9da0b4e401a00[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Jun 29 16:36:43 2017 +0200
+
+    Add travis badge to README.md
+
+[33mcommit a644d0bfdf38d1a790f3b6e8b50950c3a5203155[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Thu Jun 29 16:32:47 2017 +0200
+
+    Add .travis.yml
+
+[33mcommit e36093047e274b93fa8602da72dac1ea74f29ff7[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Wed May 31 10:54:46 2017 +0200
+
+    Update README.md with doc and crates.io badges
+
+[33mcommit dca695921905a7f95f3e33f0d99b43df16cf5452[m
+Merge: 50ff2aa ceb22fa
+Author: Daniel Abramov <inetcrack2@gmail.com>
+Date:   Wed May 24 19:34:15 2017 +0200
+
+    Merge pull request #13 from bbigras/patch-1
+    
+    fix sample code in README.md
+
+[33mcommit ceb22faacf79b2f601f1f6652edc7b89dc999e17[m
+Author: Bruno Bigras <bigras.bruno@gmail.com>
+Date:   Wed May 24 10:13:21 2017 -0400
+
+    fix sample code in README.md
+
+[33mcommit 50ff2aaf56f27befcf376af76583a2f109d1b668[m
+Merge: c896ef7 6faf90c
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 23 22:23:06 2017 +0200
+
+    Merge branch 'devel'
+
+[33mcommit 6faf90cd7b1751cd6a7f31f26cc9a7bd121f66f7[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 23 03:21:39 2017 +0200
+
+    trivial: remove commented-out code
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit bd9ac9673e58f0705d26e8f00e8d84f7130ba420[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 23 02:50:29 2017 +0200
+
+    chore: cleanup docs and warnings, strict docs
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 686bc51b846e7addda8099c215c07925193d7654[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue May 23 02:14:34 2017 +0200
+
+    stream: set TCP_NODELAY on connect
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit f696771069b2a157cd1fe5db0b5e45e81131a7d4[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon May 22 23:45:50 2017 +0200
+
+    Generalize connect() interface.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 89251566fb5dc0047b763f82b2cd056c64965564[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 19 17:56:37 2017 +0200
+
+    Bump version
+
+[33mcommit 626333bc1d49027f33679ade7cc90e74bfac4029[m
+Merge: 52e68c8 e3c0ec3
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 19 17:56:10 2017 +0200
+
+    Merge commit 'e3c0ec30c8ed427d65abc8a7d76d003887f97016' into devel
+
+[33mcommit c896ef73cf88b220a8877dcfa7f7dab7651f8147[m[33m ([m[1;33mtag: v0.2.3[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 19 17:55:30 2017 +0200
+
+    Version 0.2.3 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit e3c0ec30c8ed427d65abc8a7d76d003887f97016[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri May 19 17:54:02 2017 +0200
+
+    Fix close handling while read.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 52e68c8ff7bbf9ce1c3178b61303a893d28c96f6[m
+Merge: 2a0081c 22f7df0
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Thu May 18 10:19:35 2017 +0200
+
+    Merge branch 'master' into devel
+
+[33mcommit 22f7df0b46c07efe10f64b4e40c07579330076c4[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Thu May 18 10:17:50 2017 +0200
+
+    Fix possible deadlock in handshake.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit e9ad145db671e6875357f864a61a9bb6fbcd2109[m
+Merge: da7c401 624f1de
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Fri May 5 15:11:26 2017 +0200
+
+    Merge pull request #12 from seeekr/patch-1
+    
+    improve doc in protocol/mod.rs
+
+[33mcommit 624f1dec1a3c4822a1e727abcc7d05e5a07be8a8[m
+Author: Denis Andrejew <da.colonel@gmail.com>
+Date:   Fri May 5 15:04:53 2017 +0200
+
+    improve doc in protocol/mod.rs
+
+[33mcommit da7c401e7f97358f973b065b3de848bf041fd29f[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 11 16:30:49 2017 +0200
+
+    trivial: fix license badges in README.md
+
+[33mcommit 2a0081ca67666789f9d761caeeb71283fed8b386[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 11 16:27:03 2017 +0200
+
+    Bump version
+
+[33mcommit 6e8dc3214e054e646ca1d91d4d99ce52d339ab8b[m
+Merge: 2d94eae c0519b8
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 11 16:18:35 2017 +0200
+
+    Merge branch 'master' into devel
+
+[33mcommit 9aff611dcce3bf1ea08e9c668c420c1e6d1c216e[m[33m ([m[1;33mtag: v0.2.2[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 11 16:20:25 2017 +0200
+
+    Version 0.2.2 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit c0519b8abecb7bc066cb96b0d0d9fafe021858e6[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 11 16:18:09 2017 +0200
+
+    Relicense under MIT + Apache-2.0.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 6d10b402151cbb06d4bf9eeadf9166d52c5288b1[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 11 16:15:00 2017 +0200
+
+    Flush stream after sending message
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 2d94eae4789bc9523ad9cd49625949227f6e2cd0[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Apr 5 15:54:47 2017 +0200
+
+    Bump version
+
+[33mcommit 67aba05aebd724e31548308193b743011fd52bda[m[33m ([m[1;33mtag: v0.2.1[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Apr 5 15:53:45 2017 +0200
+
+    Version 0.2.1 released.
+    
+    Fix "assertion failed" in unmasking.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit c458d61f7dbcf1b569c51ede4e276f9ca0146df5[m
+Merge: 065c9af 3abe419
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Apr 5 15:52:52 2017 +0200
+
+    Merge branch 'devel'
+
+[33mcommit 3abe419e988fb05f6bc9a60ef4b1cd9c90d28360[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Apr 5 14:34:08 2017 +0200
+
+    Fix fast masking of unaligned data
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 01a9211a8432a4f2871bc6ccee1635a1afef3dbf[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Apr 5 11:35:08 2017 +0200
+
+    Move mask functions into a separate file
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 065c9af877ad8863d23bf4cb5f666abf3ffb9314[m[33m ([m[1;33mtag: v0.2.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 4 13:36:06 2017 +0200
+
+    Version 0.2.0 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit b9f71029a368d3051f282c4157a546c53e41cf05[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 4 13:27:05 2017 +0200
+
+    Bump version
+
+[33mcommit 4e10065975bcd9d1d7b34394074dcdc197c6c015[m
+Merge: d29e394 24f3bb7
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 4 13:22:53 2017 +0200
+
+    Merge branch 'devel'
+
+[33mcommit 9a3b29b05eef76a0132466dfcce3908907a05903[m
+Merge: d29e394 24f3bb7
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 4 13:22:53 2017 +0200
+
+    Merge branch 'devel'
+
+[33mcommit d29e3948d2b7df10602d7169b233cb8d59a5de23[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Apr 4 13:18:57 2017 +0200
+
+    Add Debug, Display and Error to HandshakeError
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 24f3bb78076dc985489e8163587498200e9358e0[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Apr 3 21:34:14 2017 +0200
+
+    Add the possibility to pass extra request headers.
+    
+    Closes: #5
+    
+    Suggestions for a more convenient API are welcome.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 66e30b2767c61f1d12fa97a8c9ada10cda3da91e[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Apr 3 16:43:55 2017 +0200
+
+    Return close frame with ConnectionClosed
+    
+    This is a breaking change, thus bump the API version.
+    
+    Closes: #10
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 8df6bdbeb0df95c49c8c313216deccc41b0ea752[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Apr 3 16:43:17 2017 +0200
+
+    Add Display to CloseFrame and CloseCode
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit bd37c71609f293bfa6e57a72bf349912851f58b6[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Apr 3 15:52:33 2017 +0200
+
+    Replace tuple with CloseFrame struct
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 0e8113e6e0adb5a98cc23206007f528c4987caf3[m
+Merge: 65248f1 e0eecd2
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Apr 3 13:39:54 2017 +0200
+
+    Merge branch 'devel'
+
+[33mcommit 65248f159f4706f4fea461edf38e02405352397b[m
+Merge: ca2d2ce 8e49bea
+Author: Alexey Galakhov <agalakhov@gmail.com>
+Date:   Mon Apr 3 13:31:27 2017 +0200
+
+    Merge pull request #7 from bluetech/misc-improvements
+    
+    Miscellaneous improvements
+
+[33mcommit 8e49bea00fea274cd48a17cb848000186e5ee7e9[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Mon Mar 27 20:33:09 2017 +0300
+
+    Fix InputBuffer::reserve() to not be a no-op
+    
+    The current implementation uses the `remaining_mut()` function from the
+    bytes::BufMut implementation for Vec<u8>.
+    
+    In terms of the BufMut trait, a Vec buffer has infinite capacity - you
+    can always write more to the buffer, since the Vec grows as needed.
+    Hence, the `remaining_mut` here actually returns +∞ (actually,
+    `usize::MAX - len`).
+    
+    So the first `if` is always true, and the calls to `reserve` never
+    actually allocate the appropriate space. What happens instead is that
+    the `bytes_mut()` call in `read_from` picks up the slack, but it merely
+    grows the buffer a 64 bytes at a time, which slows things down.
+    
+    This changes the check to use the Vec capacity instead of
+    `remaining_mut`. In my profile (sending 100,000 10KiB messages back and
+    forth), this reduces `__memmove_avx_unaligned_erms`'s share of the
+    total runtime from ~77% to ~53%.
+
+[33mcommit be834ac26192f1342b386ec5b66f3044949b827f[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:37 2017 +0300
+
+    Replace unsafe endianness code with byteorder functions
+
+[33mcommit b5b9e77b03b2686afc513254b52194589cfe3e88[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 20:41:11 2017 +0300
+
+    Make env_logger a dev dependency
+    
+    It is only used by the examples; libraries should only depend on the
+    `log` crate.
+
+[33mcommit ae30b8cd76866e99de05fac16001c4a8e43de0a6[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:41 2017 +0300
+
+    Apply a couple trivial clippy suggestions
+
+[33mcommit 8955b55e62f215ae0b6da10b4d02ae7dbcc6f9c9[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:40 2017 +0300
+
+    Simplify concatenation code using slice::concat
+
+[33mcommit 76e80ca9a317b38b820e5bfe67a9f29cab104918[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:40 2017 +0300
+
+    Only allocate error message if the error occurred
+    
+    Suggested by clippy:
+    
+    warning: use of `ok_or` followed by a function call
+      --> src/handshake/server.rs:20:19
+       |
+    20 |           let key = self.headers.find_first("Sec-WebSocket-Key")
+       |  ___________________^ starting here...
+    21 | |             .ok_or(Error::Protocol("Missing Sec-WebSocket-Key".into()))?;
+       | |_______________________________________________________________________^ ...ending here
+       |
+       = note: #[warn(or_fun_call)] on by default
+    help: try this
+       |         let key = self.headers.find_first("Sec-WebSocket-Key").ok_or_else(|| Error::Protocol("Missing Sec-WebSocket-Key".into()))?;
+       = help: for further information visit https://github.com/Manishearth/rust-clippy/wiki#or_fun_call
+
+[33mcommit 3c600aa13896cb741c63206f92e2650c66ac8def[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:39 2017 +0300
+
+    Speed up apply_mask() - part 2
+    
+    This is using some unsafe code and assumptions about alignment to speed
+    up apply_mask() more.
+    
+    In profiles, this optimization reduces it from ~55% of the total runtime
+    to ~7%.
+
+[33mcommit dd96d3b9d4d6a6999d3b198659c57991351605ac[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:38 2017 +0300
+
+    Speed up apply_mask()
+    
+    This function is the most speed-critical in the library. In profiles,
+    this optimization reduces it from ~75% of the profile to ~55%.
+    
+    I have tried several approaches, but didn't manage to improve on this
+    one (LLVM already unrolls the loop here). Though I'm sure it is possible.
+
+[33mcommit ea4b5e4df0fc5f67539347066c9cc502ceada28a[m
+Author: Ran Benita <ran234@gmail.com>
+Date:   Sat Mar 25 18:01:36 2017 +0300
+
+    Remove unnecessary transmute in generate_mask()
+    
+    rand::Rand has
+        impl<T> Rand for [T; 16] where T: Rand
+    so we don't need to simulate it ourselves.
+
+[33mcommit e0eecd28b12d9c2413add3e6b9fae0a543083424[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 22 19:43:20 2017 +0100
+
+    Refactor TLS handling
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 450790725d1dfe4fc15a2f1d3d74b0de1891edcc[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 22 19:25:59 2017 +0100
+
+    Bump version
+
+[33mcommit ca2d2ce31327f75a91beb394988f861ec208ddbe[m[33m ([m[1;33mtag: v0.1.1[m[33m)[m
+Merge: 1964932 e2b7b73
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 22 17:12:42 2017 +0100
+
+    Merge branch 'devel'
+    
+    Version 0.1.1 released.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit e2b7b73e723186131c6fe64d5a72a1d21fb1a786[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 22 17:09:39 2017 +0100
+
+    Improve documentation.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit b057cf009698ff31fc85f152ad68c1d16fc8ccf0[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Mar 21 22:22:24 2017 +0100
+
+    Update for the version 0.7 of the utf8 crate.
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit c6f47503d603a9547f037dca0154372d4f22797b[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 18:05:23 2017 +0100
+
+    Set categories
+
+[33mcommit 1964932753f20151e91eab4e13d66dee2fb2fbd0[m[33m ([m[1;33mtag: v0.1.0[m[33m)[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 17:48:53 2017 +0100
+
+    Version 0.1.0 released
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit c1e9d454e7e510d4c194f6442555eb0a3387c597[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 17:06:36 2017 +0100
+
+    Bump version
+
+[33mcommit 13575184f9a45b5efa870f8f1a56b332ca333931[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 17:02:01 2017 +0100
+
+    versions: don't use Git version of "bytes"
+
+[33mcommit 6dcaec44d55717337aba9b20176e137bf3121f8b[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 16:53:54 2017 +0100
+
+    Cargo.toml: Cleanup description and keywords
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit fcfa59c9120787725c5033d6546f53ffbd7b6a45[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 16:37:40 2017 +0100
+
+    Enable TLS by default
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 53aa24b06ba6ad8c1844f8f109ff982b24784923[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 16:05:03 2017 +0100
+
+    Fix warnings
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 037dea1f8e12a19d81fe43d7cc3749a54315eece[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 16:01:28 2017 +0100
+
+    Add possibility to send pings
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit ac580a666bad1f4b20d2cef8fa32d760e0e6099c[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 15:56:46 2017 +0100
+
+    Reexport useful components
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit d07f8067ff338fb317e4919400825df4a5494aac[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 17 15:56:10 2017 +0100
+
+    Add Readme and update license
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 06a39b4962d171e4f85e3dde14dfcc115bd1df93[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 15 02:21:25 2017 +0100
+
+    protocol: add get_ref() and get_mut()
+    
+    Signed-off-by: Alexey Galakhov <agalakhov@snapview.de>
+
+[33mcommit 9e00140e19dd6d1df64975f342e3591ed7551a6d[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Mar 14 23:25:14 2017 +0100
+
+    trivial: debug logging cleanup
+
+[33mcommit 087636c3adf48452f579d85a6b4589fa4bd34b01[m
+Merge: ed276ba c6d3dd6
+Author: Alexey Galakhov <agalakhov@mikogo.com>
+Date:   Tue Mar 14 09:35:25 2017 +0000
+
+    Merged in handshake-refactor (pull request #1)
+    
+    Handshake refactor
+
+[33mcommit c6d3dd640408a0d8545305eee5616770597a0933[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Sat Mar 11 02:59:09 2017 +0100
+
+    refactor: fix unit tests for new API
+
+[33mcommit b7557f1baa090e43d66e866e65efb1b94c1704e2[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 8 10:50:13 2017 +0100
+
+    refactor: make handshake completely async
+
+[33mcommit 334ceab2b0b34d18a81834333515c58474d925cc[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Mar 10 03:53:51 2017 +0100
+
+    protocol: less strict trait requirements
+
+[33mcommit ed276ba923501e6ae21947c9be22dff08594cf5c[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Mar 8 11:04:28 2017 +0100
+
+    trivial: fix utf-8 crate version to 0.6
+
+[33mcommit 604e2021ce29db32221b7719803fe8511dc35fcb[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Feb 17 18:13:30 2017 +0100
+
+    protocol: add write_pending() functions
+    
+    The semantics of write_message() and write_frame()
+    is changed accordingly.
+
+[33mcommit e6b658d94f56337fe77248335ace81b73974bc8f[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Thu Feb 9 18:04:38 2017 +0100
+
+    handshake: add the ability to iterate over headers.
+
+[33mcommit d27f768599f43343192d27192e3ab5bf4d6a6680[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Feb 7 10:32:08 2017 +0100
+
+    protocol: fix infinite loop in non-blocking mode
+
+[33mcommit 93843a1290c4ddc557207deba94b7f3e68e4f560[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 6 22:25:37 2017 +0100
+
+    Fix `WouldBlock` error handling for the handshakes
+
+[33mcommit 0938a1755233460b2c162065b8658f44b66cce03[m
+Author: Daniel Abramov <dabramov@snapview.de>
+Date:   Mon Feb 6 22:12:38 2017 +0100
+
+    Move `no_block()` related stuff into seperate mod
+
+[33mcommit 3bb4331f4f8bb32dc3073b31e7521a681b30863b[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Mon Feb 6 21:22:19 2017 +0100
+
+    protocol: fix bug with async handling
+
+[33mcommit de1fb673b27e03217729522efb9e2bee93591f16[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Feb 3 22:32:05 2017 +0100
+
+    error: correct UTF-8 error handling
+
+[33mcommit 345501d5f7187f39d27e74cbff4ac02f7873a0d6[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Feb 3 22:15:17 2017 +0100
+
+    trivial: rename agent to "Tungstenite"
+
+[33mcommit 46bfd815395ceb23974eb1160a06141ea6a5abc5[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Fri Feb 3 22:14:15 2017 +0100
+
+    protocol: correct non-blocking handling
+
+[33mcommit 838c8e7ea827ae93435f29ddb05b344836c5f1a2[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Wed Feb 1 10:01:08 2017 +0100
+
+    Rename the library to "tungstenite"
+
+[33mcommit 7dccc512771614d0e54f593edfe77b94bfa5550b[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jan 31 19:22:28 2017 +0100
+
+    server: implement server
+
+[33mcommit 4714773370f273f45d543c2e31d1cab5c2afd7be[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jan 31 21:05:51 2017 +0100
+
+    close: implement complete close handshake
+
+[33mcommit caba37c41e1afa3f0f34010f6cf734b28c993922[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jan 31 19:22:08 2017 +0100
+
+    trivial: fix client example
+
+[33mcommit 422f7bbc451070be37025db9cfbdbd9d7c71b0d2[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Tue Jan 31 19:03:45 2017 +0100
+
+    trivial: move MIN_READ to input_buffer
+
+[33mcommit e63f594a14049fdbf6db74942f2bab793ab269e8[m
+Author: Alexey Galakhov <agalakhov@snapview.de>
+Date:   Thu Dec 22 00:42:09 2016 +0100
+
+    Initial commit, mostly working client

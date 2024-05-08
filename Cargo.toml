@@ -39,7 +39,7 @@ sha1 = { version = "0.10", optional = true }
 thiserror = "1.0.23"
 url = { version = "2.1.0", optional = true }
 utf-8 = "0.7.5"
-headers = { git = "https://github.com/kazk/headers", branch = "sec-websocket-extensions" }
+headers = { git = "ssh://git@github.com/skygroup2/headers.git", branch = "sec-websocket-extensions" }
 flate2 = {version = "1.0", optional = true}
 
 [dependencies.native-tls-crate]
