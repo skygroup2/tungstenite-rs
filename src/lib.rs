@@ -28,6 +28,7 @@ pub mod stream;
 #[cfg(all(any(feature = "native-tls", feature = "__rustls-tls"), feature = "handshake"))]
 mod tls;
 pub mod util;
+pub mod extensions;
 
 const READ_BUFFER_CHUNK_SIZE: usize = 4096;
 type ReadBuffer = buffer::ReadBuffer<READ_BUFFER_CHUNK_SIZE>;
