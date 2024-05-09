@@ -234,7 +234,6 @@ impl DeflateConfig {
                     // The server may include this parameter in the response and the client MUST support it.
                     config.client_no_context_takeover = true;
                 }
-
                 SERVER_MAX_WINDOW_BITS => {
                     // Fail the connection when the response contains a parameter with invalid value.
                     if let Some(bits) = val {
@@ -243,44 +242,8 @@ impl DeflateConfig {
                                 NegotiationError::InvalidServerMaxWindowBitsValue(bits.to_owned()),
                             ));
                         }
-                    } else {
-                        return Err(DeflateError::Negotiation(
-                            NegotiationError::MissingServerMaxWindowBitsValue,
-                        ));
                     }
-
-                    // A server may include the "server_max_window_bits" extension parameter
-                    // in an extension negotiation response even if the extension
-                    // negotiation offer being accepted by the response didn't include the
-                    // "server_max_window_bits" extension parameter.
-                    //
-                    // However, but we need to fail the connection because we don't support it (condition 4).
-                    return Err(DeflateError::Negotiation(
-                        NegotiationError::ServerMaxWindowBitsNotSupported,
-                    ));
-                }
-
-                CLIENT_MAX_WINDOW_BITS => {
-                    // Fail the connection when the response contains a parameter with invalid value.
-                    if let Some(bits) = val {
-                        if !is_valid_max_window_bits(bits) {
-                            return Err(DeflateError::Negotiation(
-                                NegotiationError::InvalidClientMaxWindowBitsValue(bits.to_owned()),
-                            ));
-                        }
-                    }
-
-                    // Fail the connection because the parameter is invalid when the client didn't offer.
-                    //
-                    // If a received extension negotiation offer doesn't have the
-                    // "client_max_window_bits" extension parameter, the corresponding
-                    // extension negotiation response to the offer MUST NOT include the
-                    // "client_max_window_bits" extension parameter.
-                    return Err(DeflateError::Negotiation(
-                        NegotiationError::UnexpectedClientMaxWindowBits,
-                    ));
-                }
-
+                },
                 // Response with unknown parameter MUST fail the WebSocket connection.
                 _ => {
                     return Err(DeflateError::Negotiation(NegotiationError::UnknownParameter(
